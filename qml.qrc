@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>ButtonsPanel.qml</file>
+        <file>ButtonsView.qml</file>
+        <file>Zone.qml</file>
+    </qresource>
+</RCC>
