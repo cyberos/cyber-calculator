@@ -30,8 +30,9 @@ Rectangle {
                     rightPadding: 10
                     topPadding: 10
                     text: historyModel.get(index).text
-                    height: 50
+                    elide: Text.ElideMiddle
                     width: rootWindow.width
+                    height: 50
 
                     MouseArea {
                         hoverEnabled: true
