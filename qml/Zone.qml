@@ -27,6 +27,7 @@ Rectangle {
             delegate: Row {
                 Label {
                     horizontalAlignment: Qt.AlignRight
+                    leftPadding: 10
                     rightPadding: 10
                     topPadding: 10
                     text: historyModel.get(index).text
@@ -61,6 +62,13 @@ Rectangle {
             anchors.fill: parent
             cursorShape: Qt.IBeamCursor
             acceptedButtons: Qt.NoButton
+        }
+
+        Keys.onReturnPressed: {
+            appendToTextField('=')
+        }
+        Keys.onEnterPressed: {
+            appendToTextField('=')
         }
     }
 
