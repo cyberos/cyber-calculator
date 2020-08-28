@@ -65,6 +65,9 @@ Rectangle {
             }
         } else if (text === 'AC') {
             textField.clear()
+        } else if (text === 'BACK') {
+            // backspace
+            textField.remove(textField.cursorPosition, textField.cursorPosition - 1)
         } else {
             textField.insert(textField.cursorPosition, text)
         }
