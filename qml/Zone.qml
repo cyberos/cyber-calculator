@@ -66,7 +66,7 @@ Rectangle {
         } else if (text === 'AC') {
             textField.clear()
         } else {
-            textField.insert(textField.length, text)
+            textField.insert(textField.cursorPosition, text)
         }
     }
 }
