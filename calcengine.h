@@ -17,28 +17,23 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QQmlContext>
-#include "calcengine.h"
+#ifndef CALCENGINE_H
+#define CALCENGINE_H
 
-int main(int argc, char *argv[])
+#include <QObject>
+#include "engine/evaluator.h"
+
+class CalcEngine : public QObject
 {
-    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-    QGuiApplication app(argc, argv);
+    Q_OBJECT
 
-    qmlRegisterType<CalcEngine>("org.cyber.calculator", 1, 0, "CalcEngine");
+public:
+    explicit CalcEngine(QObject *parent = nullptr);
 
-    QQmlApplicationEngine engine;
+    Q_INVOKABLE QString eval(const QString &expr);
 
-#ifdef QT_DEBUG
-    engine.rootContext()->setContextProperty(QStringLiteral("debug"), true);
-#else
-   engine.rootContext()->setContextProperty(QStringLiteral("debug"), false);
-#endif
+private:
+    Evaluator *m_evaluator;
+};
 
-    engine.addImportPath(QStringLiteral("qrc:/"));
-    engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));
-
-    return app.exec();
-}
+#endif // CALCENGINE_H

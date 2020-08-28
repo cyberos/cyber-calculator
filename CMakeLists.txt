@@ -15,6 +15,12 @@ find_package(Qt5 REQUIRED ${QT})
 
 set(SRCS
     main.cpp
+    calcengine.cpp
+    engine/constants.cpp
+    engine/evaluator.cpp
+    engine/functions.cpp
+    engine/hmath.cpp
+    engine/number.c
 )
 
 set(RESOURCES

@@ -1,7 +1,5 @@
 <RCC>
     <qresource prefix="/">
-        <file>backend/math.js</file>
-        <file>backend/MathJs.qml</file>
         <file>qml/main.qml</file>
         <file>qml/ButtonsPanel.qml</file>
         <file>qml/ButtonsView.qml</file>

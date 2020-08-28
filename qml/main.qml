@@ -1,6 +1,6 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.5
-import "../backend/math.js" as MathJs
+import org.cyber.calculator 1.0
 
 ApplicationWindow {
     visible: true
@@ -11,8 +11,13 @@ ApplicationWindow {
     title: qsTr("Calculator")
     id: rootWindow
 
-    property var mathJs: MathJs.mathJs
-    property string lastError
+    CalcEngine {
+        id: calcEngine
+
+        Component.onCompleted: {
+            console.log("load calc engine finished")
+        }
+    }
 
     Zone {
         id: zone
@@ -30,21 +35,9 @@ ApplicationWindow {
         visible: visible
     }
 
-    Component.onCompleted: {
-        mathJs.config({
-            number: 'BigNumber'
-        });
-    }
-
     function calculate(evalText) {
-        try {
-            var res = mathJs.eval(evalText)
-        } catch (exception) {
-            lastError = exception.toString();
-            return ''
-        }
-
-        return res;
+        var res = calcEngine.eval(evalText)
+        return res
     }
 
 }

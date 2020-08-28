@@ -60,8 +60,13 @@ Rectangle {
             if (res !== '') {
                 var expressionText = textField.text
                 textField.text = res;
-                expressionText = expressionText + " = " + res
-                historyModel.append({"text": expressionText})
+
+                // If the expression and the result area equal,
+                // it will not be added to the ListView
+                if (expressionText !== res) {
+                    expressionText = expressionText + " = " + res
+                    historyModel.append({"text": expressionText})
+                }
             }
         } else if (text === 'AC') {
             textField.clear()
