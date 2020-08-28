@@ -1,5 +1,6 @@
-import QtQuick 2.12
+import QtQuick 2.9
 import QtQuick.Controls 2.5
+import "../backend/math.js" as MathJs
 
 ApplicationWindow {
     visible: true
@@ -9,6 +10,9 @@ ApplicationWindow {
     minimumHeight: 550
     title: qsTr("Calculator")
     id: rootWindow
+
+    property var mathJs: MathJs.mathJs
+    property string lastError
 
     Zone {
         id: zone
@@ -25,4 +29,22 @@ ApplicationWindow {
         anchors.bottom: parent.bottom
         visible: visible
     }
+
+    Component.onCompleted: {
+        mathJs.config({
+            number: 'BigNumber'
+        });
+    }
+
+    function calculate(evalText) {
+        try {
+            var res = mathJs.eval(evalText)
+        } catch (exception) {
+            lastError = exception.toString();
+            return ''
+        }
+
+        return res;
+    }
+
 }

@@ -13,16 +13,22 @@ Rectangle {
         anchors.bottom: textField.top
 
         ListView {
+            id: listView
             width: rootWindow.width
-            model: 20
+            model: ListModel { id: historyModel }
             clip: true
+
+            onCountChanged: {
+                // Automatically scroll list to end / bottom
+                listView.currentIndex = count - 1
+            }
 
             delegate: Row {
                 Label {
                     horizontalAlignment: Qt.AlignRight
                     rightPadding: 10
                     topPadding: 10
-                    text: "Item " + (index + 1)
+                    text: historyModel.get(index).text
                     height: 50
                     width: rootWindow.width
 
@@ -52,14 +58,17 @@ Rectangle {
 
     function appendToTextField(text) {
         if (text === '=') {
-            return;
+            var res = calculate(textField.text)
+            if (res !== '') {
+                var expressionText = textField.text
+                textField.text = res;
+                expressionText = expressionText + " = " + res
+                historyModel.append({"text": expressionText})
+            }
+        } else if (text === 'AC') {
+            textField.clear()
+        } else {
+            textField.insert(textField.length, text)
         }
-
-
-        textField.insert(textField.length, text)
-    }
-
-    function scrollToBottom() {
-
     }
 }
