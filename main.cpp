@@ -1,35 +1,11 @@
-//#include <QGuiApplication>
-//#include <QQmlApplicationEngine>
-
-#include <QtGlobal>
-#include <QApplication>
-#include <QDir>
-#include <QIcon>
-#include <QLibraryInfo>
+#include <QGuiApplication>
 #include <QQmlApplicationEngine>
-#include <QtQuickControls2/QQuickStyle>
 #include <QQmlContext>
-#include <QDebug>
-#include <QStandardPaths>
-#include <QTranslator>
 
 int main(int argc, char *argv[])
 {
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-
-    QApplication app(argc, argv);
-
-//    QQmlApplicationEngine engine;
-//    const QUrl url(QStringLiteral("qrc:/qml/main.qml"));
-//    QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
-//                     &app, [url](QObject *obj, const QUrl &objUrl) {
-//        if (!obj && url == objUrl)
-//            QCoreApplication::exit(-1);
-//    }, Qt::QueuedConnection);
-
-//    engine.addImportPath(QStringLiteral("qrc:/"));
-//    engine.load(url);
-
+    QGuiApplication app(argc, argv);
     QQmlApplicationEngine engine;
 
 #ifdef QT_DEBUG

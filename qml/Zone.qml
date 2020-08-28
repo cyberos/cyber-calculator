@@ -1,6 +1,7 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
+import QtQuick.Controls.Styles 1.4
 
 Rectangle {
     id: zone
@@ -32,6 +33,9 @@ Rectangle {
                     height: 50
                     width: rootWindow.width
 
+                    MouseArea {
+                        hoverEnabled: true
+                    }
                 }
             }
         }
@@ -41,13 +45,16 @@ Rectangle {
         id: textField
         selectByMouse: true
         width: rootWindow.width
-        height: 40
+        height: 50
         horizontalAlignment: TextInput.AlignRight
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.bottom: parent.bottom
-
         focus: Qt.StrongFocus
+
+        background: Rectangle {
+            border.width: 0
+        }
 
         MouseArea {
             anchors.fill: parent
