@@ -43,26 +43,8 @@ Rectangle {
         }
     }
 
-    TextField {
+    CTextField {
         id: textField
-        selectByMouse: true
-        width: rootWindow.width
-        height: 50
-        horizontalAlignment: TextInput.AlignRight
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.bottom: parent.bottom
-        focus: Qt.StrongFocus
-
-        background: Rectangle {
-            border.width: 0
-        }
-
-        MouseArea {
-            anchors.fill: parent
-            cursorShape: Qt.IBeamCursor
-            acceptedButtons: Qt.NoButton
-        }
 
         Keys.onReturnPressed: {
             appendToTextField('=')
