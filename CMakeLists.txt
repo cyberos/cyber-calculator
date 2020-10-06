@@ -35,3 +35,9 @@ target_link_libraries(${PROJECT_NAME}
 )
 
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION /usr/bin)
+
+install(FILES
+    cyber-calculator.desktop
+    DESTINATION /usr/share/applications/
+    COMPONENT Runtime
+)
