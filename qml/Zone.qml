@@ -3,21 +3,25 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
 import QtQuick.Controls.Styles 1.4
 
-Rectangle {
+Item {
     id: zone
 
-    ScrollView {
-        id: scrollView
-        anchors.top: parent.top
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.bottom: textField.top
+    ColumnLayout {
+        id: layout
+        anchors.fill: parent
 
         ListView {
             id: listView
-            width: rootWindow.width
             model: ListModel { id: historyModel }
             clip: true
+
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+
+            flickableDirection: Flickable.VerticalFlick
+            // boundsBehavior: Flickable.StopAtBounds
+
+            ScrollBar.vertical: ScrollBar {}
 
             onCountChanged: {
                 // Automatically scroll list to end / bottom
@@ -34,6 +38,7 @@ Rectangle {
                     elide: Text.ElideMiddle
                     width: rootWindow.width
                     height: 50
+                    color: "#717171"
 
                     MouseArea {
                         hoverEnabled: true
@@ -41,16 +46,12 @@ Rectangle {
                 }
             }
         }
-    }
 
-    CTextField {
-        id: textField
-
-        Keys.onReturnPressed: {
-            appendToTextField('=')
-        }
-        Keys.onEnterPressed: {
-            appendToTextField('=')
+        CTextField {
+            id: textField
+            Layout.fillWidth: true
+            Keys.onReturnPressed: appendToTextField('=')
+            Keys.onEnterPressed: appendToTextField('=')
         }
     }
 

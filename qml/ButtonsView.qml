@@ -15,31 +15,46 @@ Rectangle {
     signal buttonClicked(string strToAppend)
     signal buttonLongPressed(string strToAppend)
 
+    color: "transparent"
+
     Grid {
         id: grid
         columns: getColumnsCount()
         rows: buttonsView.rowsCount
-        rowSpacing: 10
-        columnSpacing: 0
-        topPadding: 10
-        bottomPadding: 10
 
         Repeater {
             model: buttonsView.labels
 
-            Label {
-                text: modelData
-                horizontalAlignment: Qt.AlignHCenter
-                verticalAlignment: Qt.AlignVCenter
-                width: rootWindow.width / 4
+            MouseArea {
+                id: buttonRect
+                width: (rootWindow.width - rootWindow.edgeMargin * 2) / 4
                 height: 50
-                font.pixelSize: buttonsView.fontSize
-                color: "black";
+                onClicked: buttonsView.buttonClicked(targets[index])
+                onPressAndHold: buttonsView.buttonLongPressed(targets[index])
 
-                MouseArea {
+                Rectangle {
+                    anchors.centerIn: parent
+                    radius: 5
+                    width: parent.width - radius
+                    height: parent.height - radius
+                    color: buttonRect.pressed ? "#E6E6E6" : "white"
+
+                    Behavior on color {
+                        ColorAnimation {
+                            duration: 50
+                        }
+                    }
+                }
+
+                Text {
                     anchors.fill: parent
-                    onClicked: buttonsView.buttonClicked(targets[index])
-                    onPressAndHold: buttonsView.buttonLongPressed(targets[index])
+                    text: modelData
+                    horizontalAlignment: Qt.AlignHCenter
+                    verticalAlignment: Qt.AlignVCenter
+                    font.pixelSize: buttonsView.fontSize
+
+                    color: text === "+" || text === "−" || text === "×" || text === "÷" ? "#1485FF" : "black"
+                    font.bold: text === "+" || text === "−" || text === "×" || text === "÷"
                 }
             }
         }

@@ -1,5 +1,6 @@
 import QtQuick 2.9
 import QtQuick.Controls 2.5
+import QtQuick.Layouts 1.3
 import org.cyber.calculator 1.0
 
 ApplicationWindow {
@@ -11,6 +12,13 @@ ApplicationWindow {
     title: qsTr("Calculator")
     id: rootWindow
 
+    property color backgroundColor: "#F5F5F5"
+    property var edgeMargin: 10
+
+    background: Rectangle {
+        color: backgroundColor
+    }
+
     CalcEngine {
         id: calcEngine
 
@@ -19,20 +27,19 @@ ApplicationWindow {
         }
     }
 
-    Zone {
-        id: zone
-        anchors.top: parent.top
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.bottom: buttonsPanel.top
-    }
+    ColumnLayout {
+        anchors.fill: parent
+        anchors.margins: edgeMargin
 
-    ButtonsPanel {
-        id: buttonsPanel
-        anchors.left: parent.left
-        anchors.right: parent.right
-        anchors.bottom: parent.bottom
-        visible: visible
+        Zone {
+            id: zone
+            Layout.fillHeight: true
+            Layout.fillWidth: true
+        }
+
+        ButtonsPanel {
+            id: buttonsPanel
+        }
     }
 
     function calculate(evalText) {

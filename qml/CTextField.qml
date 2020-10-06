@@ -7,9 +7,6 @@ TextField {
     width: rootWindow.width
     height: 50
     horizontalAlignment: TextInput.AlignRight
-    anchors.left: parent.left
-    anchors.right: parent.right
-    anchors.bottom: parent.bottom
     focus: Qt.StrongFocus
 
     property int selectStart
@@ -18,6 +15,7 @@ TextField {
 
     background: Rectangle {
         border.width: 0
+        color: "transparent"
     }
 
     MouseArea {
