@@ -4,8 +4,6 @@ import QtQuick.Controls 2.5
 TextField {
     id: textField
     selectByMouse: true
-    width: rootWindow.width
-    height: 50
     horizontalAlignment: TextInput.AlignRight
     focus: Qt.StrongFocus
 

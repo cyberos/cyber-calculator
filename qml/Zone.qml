@@ -49,6 +49,7 @@ Item {
 
         CTextField {
             id: textField
+            height: 50
             Layout.fillWidth: true
             Keys.onReturnPressed: appendToTextField('=')
             Keys.onEnterPressed: appendToTextField('=')
