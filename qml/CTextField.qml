@@ -6,6 +6,7 @@ TextField {
     selectByMouse: true
     horizontalAlignment: TextInput.AlignRight
     focus: Qt.StrongFocus
+    font.pixelSize: 24
 
     property int selectStart
     property int selectEnd

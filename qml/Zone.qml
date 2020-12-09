@@ -2,6 +2,7 @@ import QtQuick 2.9
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
 import QtQuick.Controls.Styles 1.4
+import MeuiKit 1.0 as Meui
 
 Item {
     id: zone
@@ -32,13 +33,13 @@ Item {
                 Label {
                     horizontalAlignment: Qt.AlignRight
                     leftPadding: 10
-                    rightPadding: 10
+                    rightPadding: 20
                     topPadding: 10
                     text: historyModel.get(index).text
                     elide: Text.ElideMiddle
                     width: rootWindow.width
                     height: 50
-                    color: "#717171"
+                    color: Meui.Theme.disabledTextColor
 
                     MouseArea {
                         hoverEnabled: true

@@ -2,6 +2,7 @@ import QtQuick 2.9
 import QtQuick.Controls 2.5
 import QtQuick.Layouts 1.3
 import org.cyber.calculator 1.0
+import MeuiKit 1.0 as Meui
 
 ApplicationWindow {
     visible: true
@@ -12,7 +13,7 @@ ApplicationWindow {
     title: qsTr("Calculator")
     id: rootWindow
 
-    property color backgroundColor: "#F5F5F5"
+    property color backgroundColor: Meui.Theme.viewBackgroundColor
     property var edgeMargin: 10
 
     background: Rectangle {
