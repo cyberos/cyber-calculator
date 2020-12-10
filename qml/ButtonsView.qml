@@ -1,6 +1,7 @@
 import QtQuick 2.9
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
+import MeuiKit 1.0 as Meui
 
 Rectangle {
     id: buttonsView
@@ -37,7 +38,7 @@ Rectangle {
                     radius: 5
                     width: parent.width - radius
                     height: parent.height - radius
-                    color: buttonRect.pressed ? "#E6E6E6" : "white"
+                    color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.backgroundColor
 
                     Behavior on color {
                         ColorAnimation {
@@ -53,7 +54,7 @@ Rectangle {
                     verticalAlignment: Qt.AlignVCenter
                     font.pixelSize: buttonsView.fontSize
 
-                    color: text === "+" || text === "−" || text === "×" || text === "÷" ? "#1485FF" : "black"
+                    color: text === "+" || text === "−" || text === "×" || text === "÷" ? "#1485FF" : Meui.Theme.textColor
                     font.bold: text === "+" || text === "−" || text === "×" || text === "÷"
                 }
             }
