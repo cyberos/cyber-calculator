@@ -13,7 +13,7 @@ ApplicationWindow {
     title: qsTr("Calculator")
     id: rootWindow
 
-    property color backgroundColor: Meui.Theme.viewBackgroundColor
+    property color backgroundColor: Meui.Theme.backgroundColor
     property var edgeMargin: 10
 
     background: Rectangle {

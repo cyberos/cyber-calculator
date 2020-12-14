@@ -38,7 +38,7 @@ Rectangle {
                     radius: 5
                     width: parent.width - radius
                     height: parent.height - radius
-                    color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.backgroundColor
+                    color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.viewBackgroundColor
 
                     Behavior on color {
                         ColorAnimation {
