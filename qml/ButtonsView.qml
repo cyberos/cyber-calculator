@@ -54,7 +54,11 @@ Rectangle {
                     verticalAlignment: Qt.AlignVCenter
                     font.pixelSize: buttonsView.fontSize
 
-                    color: text === "+" || text === "−" || text === "×" || text === "÷" ? "#1485FF" : Meui.Theme.textColor
+                    color: text === "+" || text === "−" || text === "×" || text === "÷"
+                    ? buttonRect.pressed
+                        ? Meui.Theme.textColor
+                        : Meui.Theme.highlightColor
+                    : Meui.Theme.textColor
                     font.bold: text === "+" || text === "−" || text === "×" || text === "÷"
                 }
             }
