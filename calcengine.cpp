@@ -29,6 +29,7 @@ CalcEngine::CalcEngine(QObject *parent)
 QString CalcEngine::eval(const QString &expr)
 {
     m_evaluator->setExpression(expr);
+    m_evaluator->eval();
 
     if (m_evaluator->error().isEmpty()) {
         return QString(HMath::formatFixed(m_evaluator->eval()));
