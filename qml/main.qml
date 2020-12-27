@@ -4,7 +4,7 @@ import QtQuick.Layouts 1.3
 import org.cyber.calculator 1.0
 import MeuiKit 1.0 as Meui
 
-ApplicationWindow {
+Meui.Window {
     visible: true
     width: 350
     height: 550
@@ -13,12 +13,7 @@ ApplicationWindow {
     title: qsTr("Calculator")
     id: rootWindow
 
-    property color backgroundColor: Meui.Theme.backgroundColor
     property var edgeMargin: 10
-
-    background: Rectangle {
-        color: backgroundColor
-    }
 
     CalcEngine {
         id: calcEngine
@@ -28,9 +23,12 @@ ApplicationWindow {
         }
     }
 
-    ColumnLayout {
-        anchors.fill: parent
-        anchors.margins: edgeMargin
+    content: ColumnLayout {
+        // anchors.fill: parent
+        // anchors.margins: edgeMargin
+        Layout.fillWidth: true
+        Layout.fillHeight: true
+        Layout.margins: edgeMargin
 
         Zone {
             id: zone

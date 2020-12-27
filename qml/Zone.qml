@@ -33,7 +33,7 @@ Item {
                 Label {
                     horizontalAlignment: Qt.AlignRight
                     leftPadding: 10
-                    rightPadding: 20
+                    rightPadding: 24
                     topPadding: 10
                     text: historyModel.get(index).text
                     elide: Text.ElideMiddle
