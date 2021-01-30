@@ -13,7 +13,9 @@ Meui.Window {
     title: qsTr("Calculator")
     id: rootWindow
 
-    property var edgeMargin: 10
+    hideHeaderOnMaximize: true
+
+    backgroundColor: Meui.Theme.secondBackgroundColor
 
     CalcEngine {
         id: calcEngine
@@ -24,11 +26,9 @@ Meui.Window {
     }
 
     content: ColumnLayout {
-        // anchors.fill: parent
-        // anchors.margins: edgeMargin
         Layout.fillWidth: true
         Layout.fillHeight: true
-        Layout.margins: edgeMargin
+        spacing: 0
 
         Zone {
             id: zone
@@ -36,8 +36,13 @@ Meui.Window {
             Layout.fillWidth: true
         }
 
-        ButtonsPanel {
-            id: buttonsPanel
+        ButtonsView {
+            id: buttons
+            Layout.fillWidth: true
+            Layout.fillHeight: true
+            labels: ['AC', '%', '←', '÷', '7', '8', '9', '×', '4', '5', '6', '−', '1', '2', '3', '+', '0', '.', '()', '=']
+            targets: ['AC', '%', 'BACK', '/', '7', '8', '9', '*', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '()', '=']
+            onButtonClicked: zone.appendToTextField(strToAppend)
         }
     }
 

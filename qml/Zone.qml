@@ -10,6 +10,7 @@ Item {
     ColumnLayout {
         id: layout
         anchors.fill: parent
+        anchors.margins: 0
 
         ListView {
             id: listView
@@ -20,26 +21,26 @@ Item {
             Layout.fillWidth: true
 
             flickableDirection: Flickable.VerticalFlick
-            // boundsBehavior: Flickable.StopAtBounds
-
             ScrollBar.vertical: ScrollBar {}
 
             onCountChanged: {
-                // Automatically scroll list to end / bottom
                 listView.currentIndex = count - 1
             }
 
-            delegate: Row {
+            delegate: Item {
+                height: label.implicitHeight + Meui.Units.largeSpacing * 2
+                width: parent ? parent.width : undefined
+
                 Label {
+                    id: label
+                    anchors.fill: parent
                     horizontalAlignment: Qt.AlignRight
-                    leftPadding: 10
-                    rightPadding: 24
-                    topPadding: 10
                     text: historyModel.get(index).text
                     elide: Text.ElideMiddle
-                    width: rootWindow.width
-                    height: 50
                     color: Meui.Theme.disabledTextColor
+
+                    leftPadding: Meui.Units.largeSpacing
+                    rightPadding: Meui.Units.largeSpacing
 
                     MouseArea {
                         hoverEnabled: true
@@ -54,6 +55,9 @@ Item {
             Layout.fillWidth: true
             Keys.onReturnPressed: appendToTextField('=')
             Keys.onEnterPressed: appendToTextField('=')
+
+            leftPadding: Meui.Units.largeSpacing
+            rightPadding: Meui.Units.largeSpacing
         }
     }
 

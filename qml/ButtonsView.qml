@@ -3,10 +3,8 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
 import MeuiKit 1.0 as Meui
 
-Rectangle {
+Item {
     id: buttonsView
-    implicitHeight: grid.implicitHeight
-    implicitWidth: grid.implicitWidth
 
     property var labels
     property var targets
@@ -16,10 +14,10 @@ Rectangle {
     signal buttonClicked(string strToAppend)
     signal buttonLongPressed(string strToAppend)
 
-    color: "transparent"
-
     Grid {
         id: grid
+        anchors.centerIn: parent
+        anchors.margins: Meui.Units.smallSpacing
         columns: getColumnsCount()
         rows: buttonsView.rowsCount
 
@@ -27,9 +25,9 @@ Rectangle {
             model: buttonsView.labels
 
             MouseArea {
-                id: buttonRect
-                width: (rootWindow.width - rootWindow.edgeMargin * 2) / 4
-                height: 50
+                id: buttonRect                
+                width: buttonsView.width / grid.columns - Meui.Units.smallSpacing / 2
+                height: buttonsView.height / grid.rows - Meui.Units.smallSpacing / 2
                 onClicked: buttonsView.buttonClicked(targets[index])
                 onPressAndHold: buttonsView.buttonLongPressed(targets[index])
 
@@ -38,7 +36,7 @@ Rectangle {
                     radius: 5
                     width: parent.width - radius
                     height: parent.height - radius
-                    color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.secondBackgroundColor
+                    color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.backgroundColor
 
                     Behavior on color {
                         ColorAnimation {
