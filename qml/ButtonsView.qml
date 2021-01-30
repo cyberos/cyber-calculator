@@ -9,7 +9,6 @@ Item {
     property var labels
     property var targets
     property int rowsCount: 5
-    property int fontSize: 17
 
     signal buttonClicked(string strToAppend)
     signal buttonLongPressed(string strToAppend)
@@ -33,7 +32,7 @@ Item {
 
                 Rectangle {
                     anchors.centerIn: parent
-                    radius: 5
+                    radius: Meui.Theme.smallRadius
                     width: parent.width - radius
                     height: parent.height - radius
                     color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.backgroundColor
@@ -50,7 +49,9 @@ Item {
                     text: modelData
                     horizontalAlignment: Qt.AlignHCenter
                     verticalAlignment: Qt.AlignVCenter
-                    font.pixelSize: buttonsView.fontSize
+                    fontSizeMode: Text.Fit
+                    minimumPointSize: Math.round(buttonRect.height / 5)
+                    font.pointSize: Math.round(buttonRect.height / 4)
 
                     color: text === "+" || text === "−" || text === "×" || text === "÷"
                     ? buttonRect.pressed
