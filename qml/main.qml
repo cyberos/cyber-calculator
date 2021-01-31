@@ -13,8 +13,6 @@ Meui.Window {
     title: qsTr("Calculator")
     id: rootWindow
 
-    hideHeaderOnMaximize: true
-
     backgroundColor: Meui.Theme.secondBackgroundColor
 
     CalcEngine {
@@ -25,7 +23,8 @@ Meui.Window {
         }
     }
 
-    content: ColumnLayout {
+    ColumnLayout {
+        anchors.fill: parent
         Layout.fillWidth: true
         Layout.fillHeight: true
         spacing: 0
