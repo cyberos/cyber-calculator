@@ -37,6 +37,9 @@ Item {
                     height: parent.height - radius
                     color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.backgroundColor
 
+                    border.width: 1
+                    border.color: Meui.Theme.darkMode ? Qt.lighter(Meui.Theme.backgroundColor, 1.1) : Qt.darker(Meui.Theme.backgroundColor, 1.1)
+
                     Behavior on color {
                         ColorAnimation {
                             duration: 50
@@ -51,14 +54,8 @@ Item {
                     verticalAlignment: Qt.AlignVCenter
                     fontSizeMode: Text.Fit
                     minimumPointSize: Math.round(buttonRect.height / 5)
-                    font.pointSize: Math.round(buttonRect.height / 4)
-
-                    color: text === "+" || text === "−" || text === "×" || text === "÷"
-                    ? buttonRect.pressed
-                        ? Meui.Theme.textColor
-                        : Meui.Theme.highlightColor
-                    : Meui.Theme.textColor
-                    font.bold: text === "+" || text === "−" || text === "×" || text === "÷"
+                    font.pointSize: Math.round(buttonRect.height / 5)
+                    color: buttonRect.pressed ? Meui.Theme.highlightedTextColor : Meui.Theme.textColor
                 }
             }
         }

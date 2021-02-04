@@ -25,14 +25,12 @@ Meui.Window {
 
     ColumnLayout {
         anchors.fill: parent
-        Layout.fillWidth: true
-        Layout.fillHeight: true
         spacing: 0
 
         Zone {
             id: zone
-            Layout.fillHeight: true
             Layout.fillWidth: true
+            Layout.preferredHeight: parent.height * 0.35
         }
 
         ButtonsView {
