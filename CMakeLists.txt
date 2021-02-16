@@ -10,7 +10,7 @@ set(CMAKE_AUTORCC ON)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(QT Core Gui Quick QuickControls2)
+set(QT Core Gui Quick QuickControls2 LinguistTools)
 find_package(Qt5 REQUIRED ${QT})
 
 set(SRCS
@@ -34,6 +34,11 @@ target_link_libraries(${PROJECT_NAME}
         Qt5::QuickControls2
 )
 
+file(GLOB TS_FILES translations/*.ts)
+qt5_create_translation(QM_FILES ${TS_FILES})
+add_custom_target(translations DEPENDS ${QM_FILES} SOURCES ${TS_FILES})
+add_dependencies(${PROJECT_NAME} translations)
+
 install(TARGETS ${PROJECT_NAME} RUNTIME DESTINATION /usr/bin)
 
 install(FILES
@@ -41,3 +46,5 @@ install(FILES
     DESTINATION /usr/share/applications/
     COMPONENT Runtime
 )
+
+install(FILES ${QM_FILES} DESTINATION /usr/share/${PROJECT_NAME}/translations)

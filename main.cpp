@@ -20,6 +20,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QTranslator>
+#include <QLocale>
+#include <QFile>
 #include "calcengine.h"
 
 int main(int argc, char *argv[])
@@ -34,8 +37,20 @@ int main(int argc, char *argv[])
 #ifdef QT_DEBUG
     engine.rootContext()->setContextProperty(QStringLiteral("debug"), true);
 #else
-   engine.rootContext()->setContextProperty(QStringLiteral("debug"), false);
+    engine.rootContext()->setContextProperty(QStringLiteral("debug"), false);
 #endif
+
+    // Translations
+    QLocale locale;
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/cyber-calculator/translations/").arg(locale.name());
+    if (QFile::exists(qmFilePath)) {
+        QTranslator *translator = new QTranslator(QGuiApplication::instance());
+        if (translator->load(qmFilePath)) {
+            QGuiApplication::installTranslator(translator);
+        } else {
+            translator->deleteLater();
+        }
+    }
 
     engine.addImportPath(QStringLiteral("qrc:/"));
     engine.load(QUrl(QStringLiteral("qrc:/qml/main.qml")));

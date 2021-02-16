@@ -37,19 +37,19 @@ TextField {
     Menu {
         id: contextMenu
         MenuItem {
-            text: "Cut"
+            text: qsTr("Cut")
             onTriggered: {
                 textField.cut()
             }
         }
         MenuItem {
-            text: "Copy"
+            text: qsTr("Copy")
             onTriggered: {
                 textField.copy()
             }
         }
         MenuItem {
-            text: "Paste"
+            text: qsTr("Paste")
             onTriggered: {
                 textField.paste()
             }
