@@ -56,7 +56,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="30"/>
         <source>quantum of circulation</source>
-        <translation>kwant cyrkulacji</translation>
+        <translation type="unfinished">kwant cyrkulacji</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="31"/>
