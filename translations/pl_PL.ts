@@ -169,7 +169,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="1005"/>
         <source>Binary Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprezentacja binarna</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1007"/>
