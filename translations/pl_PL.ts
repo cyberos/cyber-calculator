@@ -111,7 +111,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="40"/>
         <source>tropical year</source>
-        <translation>rok tropikalny</translation>
+        <translation type="unfinished">rok tropikalny</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="41"/>
