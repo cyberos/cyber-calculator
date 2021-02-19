@@ -106,7 +106,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="39"/>
         <source>sidereal year</source>
-        <translation>rok gwiazdowy</translation>
+        <translation type="unfinished">rok gwiazdowy</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="40"/>
