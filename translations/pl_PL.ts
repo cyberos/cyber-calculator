@@ -159,7 +159,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="1001"/>
         <source>Base-10 Logarithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Logarytm dziesiętny</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1003"/>
