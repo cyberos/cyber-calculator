@@ -111,37 +111,37 @@
     <message>
         <location filename="../engine/constants.cpp" line="40"/>
         <source>tropical year</source>
-        <translation type="unfinished"></translation>
+        <translation>тропический год</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="41"/>
         <source>Gregorian year</source>
-        <translation type="unfinished"></translation>
+        <translation>Григорианский год</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="42"/>
         <source>Earth mass</source>
-        <translation type="unfinished"></translation>
+        <translation>Масса Земли</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="43"/>
         <source>Sun mass</source>
-        <translation type="unfinished"></translation>
+        <translation>Солнечная масса</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="44"/>
         <source>mean Earth radius</source>
-        <translation type="unfinished"></translation>
+        <translation>средний радиус Земли</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="45"/>
         <source>Sun radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Радиус Солнца</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Sun luminosity</source>
-        <translation type="unfinished"></translation>
+        <translation>Светимость Солнца</translation>
     </message>
 </context>
 <context>
@@ -149,12 +149,12 @@
     <message>
         <location filename="../engine/functions.cpp" line="997"/>
         <source>Absolute Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Абсолютная величина</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="999"/>
         <source>Average (Arithmetic Mean)</source>
-        <translation type="unfinished"></translation>
+        <translation>Среднее (среднее арифметическое)</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1001"/>
