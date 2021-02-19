@@ -36,47 +36,47 @@
         <location filename="../engine/constants.cpp" line="32"/>
         <location filename="../engine/constants.cpp" line="33"/>
         <source>Atomic &amp; Nuclear</source>
-        <translation type="unfinished"></translation>
+        <translation>Atomiczne i nuklearne</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="27"/>
         <source>Fermi coupling constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Stała sprzężenia Fermiego</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="28"/>
         <source>fine-structure constant</source>
-        <translation type="unfinished"></translation>
+        <translation>stała drobnoziarnista</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="29"/>
         <source>Hartree energy</source>
-        <translation type="unfinished"></translation>
+        <translation>Energia Hartree</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="30"/>
         <source>quantum of circulation</source>
-        <translation type="unfinished"></translation>
+        <translation>kwant cyrkulacji</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="31"/>
         <source>Rydberg constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Stała Rydberga</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="32"/>
         <source>Thomson cross section</source>
-        <translation type="unfinished"></translation>
+        <translation>Przekrój Thomsona</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="33"/>
         <source>weak mixing angle</source>
-        <translation type="unfinished"></translation>
+        <translation>słaby kąt mieszania</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
         <source>astronomical unit</source>
-        <translation type="unfinished"></translation>
+        <translation>jednostka astronomiczna</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
@@ -91,42 +91,42 @@
         <location filename="../engine/constants.cpp" line="45"/>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Astronomy</source>
-        <translation type="unfinished"></translation>
+        <translation>Astronomia</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
         <source>light year</source>
-        <translation type="unfinished"></translation>
+        <translation>Rok świetlny</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
         <source>parsec</source>
-        <translation type="unfinished"></translation>
+        <translation>parsek</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="39"/>
         <source>sidereal year</source>
-        <translation type="unfinished"></translation>
+        <translation>rok gwiazdowy</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="40"/>
         <source>tropical year</source>
-        <translation type="unfinished"></translation>
+        <translation>rok tropikalny</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="41"/>
         <source>Gregorian year</source>
-        <translation type="unfinished"></translation>
+        <translation>Rok gregoriański</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="42"/>
         <source>Earth mass</source>
-        <translation type="unfinished"></translation>
+        <translation>Masa Ziemi</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="43"/>
         <source>Sun mass</source>
-        <translation type="unfinished"></translation>
+        <translation>Masa Słońca</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="44"/>
