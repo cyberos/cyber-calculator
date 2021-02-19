@@ -75,8 +75,11 @@ Item {
                     historyModel.append({"text": expressionText})
                 }
             }
-        } else if (text === 'AC') {
-            textField.clear()
+        } else if (text === 'AC/C') {
+            if (textField.text != "")
+                textField.clear()
+            else 
+                historyModel.clear()
         } else if (text === 'BACK') {
             // backspace
             textField.remove(textField.cursorPosition, textField.cursorPosition - 1)
