@@ -71,7 +71,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="33"/>
         <source>weak mixing angle</source>
-        <translation>słaby kąt mieszania</translation>
+        <translation type="unfinished">słaby kąt mieszania</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
