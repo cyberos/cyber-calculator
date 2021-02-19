@@ -91,7 +91,7 @@
         <location filename="../engine/constants.cpp" line="45"/>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Astronomy</source>
-        <translation>Astronomia</translation>
+        <translation type="unfinished">Astronomia</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
