@@ -131,7 +131,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="44"/>
         <source>mean Earth radius</source>
-        <translation type="unfinished"></translation>
+        <translation>średni promień Ziemi</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="45"/>
