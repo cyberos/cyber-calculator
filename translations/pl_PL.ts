@@ -61,7 +61,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="31"/>
         <source>Rydberg constant</source>
-        <translation>Stała Rydberga</translation>
+        <translation type="unfinished">Stała Rydberga</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="32"/>
