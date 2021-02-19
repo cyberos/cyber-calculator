@@ -24,7 +24,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="26"/>
         <source>Bohr radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Promień Bohra</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="26"/>
