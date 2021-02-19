@@ -149,7 +149,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="997"/>
         <source>Absolute Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Całkowita wartość</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="999"/>
