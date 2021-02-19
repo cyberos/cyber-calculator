@@ -116,7 +116,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="41"/>
         <source>Gregorian year</source>
-        <translation>Rok gregoriański</translation>
+        <translation type="unfinished">Rok gregoriański</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="42"/>
