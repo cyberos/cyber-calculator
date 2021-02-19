@@ -121,7 +121,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="42"/>
         <source>Earth mass</source>
-        <translation>Masa Ziemi</translation>
+        <translation type="unfinished">Masa Ziemi</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="43"/>
