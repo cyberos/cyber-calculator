@@ -11,7 +11,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation>Kopieren</translation>
+        <translation type="unfinished">Kopie</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
