@@ -179,72 +179,72 @@
     <message>
         <location filename="../engine/functions.cpp" line="1009"/>
         <source>Cube Root</source>
-        <translation type="unfinished"></translation>
+        <translation>Pierwiastek sześcienny</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1011"/>
         <source>Decimal Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprezentacja dziesiętna</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1013"/>
         <source>Exponential</source>
-        <translation type="unfinished"></translation>
+        <translation>Wykładniczy</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1015"/>
         <source>Floor</source>
-        <translation type="unfinished"></translation>
+        <translation>Podłoga</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1017"/>
         <source>Fractional Part</source>
-        <translation type="unfinished"></translation>
+        <translation>Część ułamkowa</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1019"/>
         <source>Geometric Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Średnia geometryczna</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1021"/>
         <source>Hexadecimal Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprezentacja szesnastkowa</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1023"/>
         <source>Integer Part</source>
-        <translation type="unfinished"></translation>
+        <translation>Część całkowita</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1025"/>
         <source>Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>Maksymalny</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1027"/>
         <source>Minimum</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimum</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1029"/>
         <source>Natural Logarithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Naturalny logarytm</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1031"/>
         <source>Octal Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprezentacja ósemkowa</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1033"/>
         <source>Product</source>
-        <translation type="unfinished"></translation>
+        <translation>Produkt</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1035"/>
         <source>Rounding</source>
-        <translation type="unfinished"></translation>
+        <translation>Zaokrąglanie</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1037"/>
@@ -254,92 +254,92 @@
     <message>
         <location filename="../engine/functions.cpp" line="1039"/>
         <source>Square Root</source>
-        <translation type="unfinished"></translation>
+        <translation>Pierwiastek kwadratowy</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1041"/>
         <source>Sum</source>
-        <translation type="unfinished"></translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1043"/>
         <source>Truncation</source>
-        <translation type="unfinished"></translation>
+        <translation>Obcięcie</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1048"/>
         <source>Greatest Common Divisor</source>
-        <translation type="unfinished"></translation>
+        <translation>Największy wspólny dzielnik</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1050"/>
         <source>Combination (Binomial Coefficient)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kombinacja (współczynnik dwumianowy)</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1052"/>
         <source>Permutation (Arrangement)</source>
-        <translation type="unfinished"></translation>
+        <translation>Permutacja (układ)</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1057"/>
         <source>Binomial Probability Mass Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcja masy prawdopodobieństwa dwumianowego</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1059"/>
         <source>Binomial Cumulative Distribution Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcja rozkładu dwumianowego</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1061"/>
         <source>Binomial Distribution Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Średnia rozkładu dwumianowego</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1063"/>
         <source>Binomial Distribution Variance</source>
-        <translation type="unfinished"></translation>
+        <translation>Wariancja rozkładu dwumianowego</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1065"/>
         <source>Hypergeometric Probability Mass Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Hipergeometryczna funkcja masy prawdopodobieństwa</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1067"/>
         <source>Hypergeometric Cumulative Distribution Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcja hipergeometrycznej dystrybucji skumulowanej</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1069"/>
         <source>Hypergeometric Distribution Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Średnia rozkładu hipergeometrycznego</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1071"/>
         <source>Hypergeometric Distribution Variance</source>
-        <translation type="unfinished"></translation>
+        <translation>Wariancja rozkładu hipergeometrycznego</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1073"/>
         <source>Poissonian Probability Mass Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Poissońska funkcja masy prawdopodobieństwa</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1075"/>
         <source>Poissonian Cumulative Distribution Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funkcja dystrybucji poissońskiej</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1077"/>
         <source>Poissonian Distribution Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Średnia dystrybucji poissońskiej</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1079"/>
         <source>Poissonian Distribution Variance</source>
-        <translation type="unfinished"></translation>
+        <translation>Poissonian Distribution Variance</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1084"/>
