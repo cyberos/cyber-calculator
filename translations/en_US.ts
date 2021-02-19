@@ -76,7 +76,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
         <source>astronomical unit</source>
-        <translation type="unfinished"></translation>
+        <translation>astronomical unit</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
