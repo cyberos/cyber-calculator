@@ -61,7 +61,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="31"/>
         <source>Rydberg constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Rydberg-konstanten</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="32"/>
@@ -91,12 +91,12 @@
         <location filename="../engine/constants.cpp" line="45"/>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Astronomy</source>
-        <translation type="unfinished"></translation>
+        <translation>Astronomi</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
         <source>light year</source>
-        <translation type="unfinished"></translation>
+        <translation>Lysår</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
@@ -111,7 +111,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="40"/>
         <source>tropical year</source>
-        <translation type="unfinished"></translation>
+        <translation>tropisk år</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="41"/>
@@ -179,7 +179,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="1009"/>
         <source>Cube Root</source>
-        <translation type="unfinished"></translation>
+        <translation>Kubikkrot</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1011"/>
@@ -189,7 +189,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="1013"/>
         <source>Exponential</source>
-        <translation type="unfinished"></translation>
+        <translation>Eksponent</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1015"/>
@@ -244,7 +244,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="1035"/>
         <source>Rounding</source>
-        <translation type="unfinished"></translation>
+        <translation>Avrunding</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1037"/>
@@ -254,7 +254,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="1039"/>
         <source>Square Root</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvadratrot</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1041"/>
@@ -404,12 +404,12 @@
     <message>
         <location filename="../engine/functions.cpp" line="1108"/>
         <source>Sine</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinus</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1110"/>
         <source>Tangent</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangens</translation>
     </message>
 </context>
 <context>
@@ -435,7 +435,7 @@
         <location filename="../engine/evaluator.cpp" line="1069"/>
         <location filename="../engine/evaluator.cpp" line="1076"/>
         <source>variable cannot be overwritten</source>
-        <translation type="unfinished"></translation>
+        <translation>variabel kan ikke overskrives</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1084"/>
@@ -453,7 +453,7 @@
         <location filename="../engine/evaluator.cpp" line="1249"/>
         <location filename="../engine/evaluator.cpp" line="1266"/>
         <source>unknown function or variable</source>
-        <translation type="unfinished"></translation>
+        <translation>ukjent funksjon eller variabel</translation>
     </message>
 </context>
 <context>
@@ -539,7 +539,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalkulator</translation>
     </message>
 </context>
 </TS>
