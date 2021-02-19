@@ -6,17 +6,17 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Cut</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Copy</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Paste</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="26"/>
         <source>Bohr radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Bohr radius</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="26"/>
@@ -36,7 +36,7 @@
         <location filename="../engine/constants.cpp" line="32"/>
         <location filename="../engine/constants.cpp" line="33"/>
         <source>Atomic &amp; Nuclear</source>
-        <translation type="unfinished"></translation>
+        <translation>Atomic &amp; Nuclear</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="27"/>
