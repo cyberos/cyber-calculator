@@ -6,17 +6,17 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>剪低</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>複製</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>貼上</translation>
     </message>
 </context>
 <context>
@@ -96,7 +96,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
         <source>light year</source>
-        <translation type="unfinished"></translation>
+        <translation>光年</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
