@@ -6,17 +6,17 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Вырезать</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Скопировать</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Вставить</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="26"/>
         <source>Bohr radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Радиус Бора</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="26"/>
@@ -36,47 +36,47 @@
         <location filename="../engine/constants.cpp" line="32"/>
         <location filename="../engine/constants.cpp" line="33"/>
         <source>Atomic &amp; Nuclear</source>
-        <translation type="unfinished"></translation>
+        <translation>Атомная и ядерная</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="27"/>
         <source>Fermi coupling constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Константа связи Ферми</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="28"/>
         <source>fine-structure constant</source>
-        <translation type="unfinished"></translation>
+        <translation>постоянная тонкой структуры</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="29"/>
         <source>Hartree energy</source>
-        <translation type="unfinished"></translation>
+        <translation>Энергия Хартри</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="30"/>
         <source>quantum of circulation</source>
-        <translation type="unfinished"></translation>
+        <translation>объем обращения</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="31"/>
         <source>Rydberg constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Постоянная Ридберга</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="32"/>
         <source>Thomson cross section</source>
-        <translation type="unfinished"></translation>
+        <translation>Поперечное сечение Томсона</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="33"/>
         <source>weak mixing angle</source>
-        <translation type="unfinished"></translation>
+        <translation>слабый угол смешивания</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
         <source>astronomical unit</source>
-        <translation type="unfinished"></translation>
+        <translation>астрономическая единица</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
@@ -91,22 +91,22 @@
         <location filename="../engine/constants.cpp" line="45"/>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Astronomy</source>
-        <translation type="unfinished"></translation>
+        <translation>Астрономия</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
         <source>light year</source>
-        <translation type="unfinished"></translation>
+        <translation>Световой год</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
         <source>parsec</source>
-        <translation type="unfinished"></translation>
+        <translation>парсек</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="39"/>
         <source>sidereal year</source>
-        <translation type="unfinished"></translation>
+        <translation>звездный год</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="40"/>
