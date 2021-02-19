@@ -136,7 +136,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="45"/>
         <source>Sun radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Promień słońca</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="46"/>
