@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="en_US">
 <context>
     <name>CTextField</name>
     <message>
@@ -96,7 +96,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
         <source>light year</source>
-        <translation type="unfinished"></translation>
+        <translation>Light year</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
