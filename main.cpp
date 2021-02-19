@@ -24,6 +24,7 @@
 #include <QLocale>
 #include <QFile>
 #include "calcengine.h"
+#include "memory.h"
 
 int main(int argc, char *argv[])
 {
@@ -31,6 +32,7 @@ int main(int argc, char *argv[])
     QGuiApplication app(argc, argv);
 
     qmlRegisterType<CalcEngine>("org.cyber.calculator", 1, 0, "CalcEngine");
+    qmlRegisterType<Memory>("org.cyber.calculator", 1, 0, "Memory");
 
     QQmlApplicationEngine engine;
 

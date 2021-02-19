@@ -8,7 +8,7 @@ Item {
 
     property var labels
     property var targets
-    property int rowsCount: 5
+    property int rowsCount: 1
 
     signal buttonClicked(string strToAppend)
     signal buttonLongPressed(string strToAppend)
