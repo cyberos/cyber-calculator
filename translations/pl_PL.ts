@@ -154,7 +154,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="999"/>
         <source>Average (Arithmetic Mean)</source>
-        <translation type="unfinished"></translation>
+        <translation>Średnia (średnia arytmetyczna)</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1001"/>
