@@ -96,7 +96,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
         <source>light year</source>
-        <translation>Rok świetlny</translation>
+        <translation type="unfinished">Rok świetlny</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
