@@ -101,7 +101,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
         <source>parsec</source>
-        <translation>parsek</translation>
+        <translation type="unfinished">parsek</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="39"/>
