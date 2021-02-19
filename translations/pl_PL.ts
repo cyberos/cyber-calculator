@@ -141,7 +141,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Sun luminosity</source>
-        <translation type="unfinished"></translation>
+        <translation>Jasność słońca</translation>
     </message>
 </context>
 <context>
