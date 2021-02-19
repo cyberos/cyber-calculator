@@ -7,9 +7,9 @@ import MeuiKit 1.0 as Meui
 Meui.Window {
     visible: true
     width: 350
-    height: 550
+    height: 650
     minimumWidth: 350
-    minimumHeight: 550
+    minimumHeight: 650
     title: qsTr("Calculator")
     id: rootWindow
 
@@ -48,6 +48,15 @@ Meui.Window {
             Layout.preferredHeight: parent.height * 0.35
         }
 
+        MemoryButtonsView {
+            id: memoryButtons
+            Layout.fillWidth: true
+            Layout.preferredHeight: 48
+            labels: ['MC', 'MR', 'M+', 'M-', 'MS']
+            targets: ['MC', 'MR', 'M+', 'M-', 'MS']
+            onButtonClicked: zone.appendToTextField(strToAppend)
+        }
+
         ButtonsView {
             id: buttons
             Layout.fillWidth: true
@@ -62,5 +71,4 @@ Meui.Window {
         var res = calcEngine.eval(evalText)
         return res
     }
-
 }

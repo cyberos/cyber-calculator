@@ -3,6 +3,7 @@ import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.5
 import QtQuick.Controls.Styles 1.4
 import MeuiKit 1.0 as Meui
+import org.cyber.calculator 1.0
 
 Item {
     id: zone
@@ -61,6 +62,10 @@ Item {
         }
     }
 
+    Memory {
+        id: memory
+    }
+
     function appendToTextField(text) {
         if (text === '=') {
             var res = calculate(textField.text)
@@ -83,6 +88,26 @@ Item {
         } else if (text === 'BACK') {
             // backspace
             textField.remove(textField.cursorPosition, textField.cursorPosition - 1)
+        } else if (text.startsWith('M')) {
+            switch(text) {
+                case 'MC':
+                    memory.text = ""
+                    break
+                case 'MR':
+                    textField.insert(textField.cursorPosition, memory.text)
+                    break
+                case 'M+':
+                    memory.increase()
+                    break
+                case 'M-':
+                    memory.decrease()
+                    break
+                case 'MS':
+                    var res = calculate(textField.text)
+                    if (res == "") break
+                    memory.text = res
+                    break
+            }
         } else {
             textField.insert(textField.cursorPosition, text)
         }
