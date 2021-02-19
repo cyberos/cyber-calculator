@@ -66,7 +66,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="32"/>
         <source>Thomson cross section</source>
-        <translation>Przekrój Thomsona</translation>
+        <translation type="unfinished">Przekrój Thomsona</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="33"/>
