@@ -68,8 +68,7 @@ HNumber function_trunc( const Evaluator         * evaluator,
 
     if( nArgs != 1 && nArgs != 2 )
     {
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function requires 1 or 2 arguments" ) );
+        function->setError( function->name(), QString( "function requires 1 or 2 arguments" ) );
         return HNumber::nan();
     }
 
@@ -82,8 +81,7 @@ HNumber function_trunc( const Evaluator         * evaluator,
 
     if( !prec.isInteger() )
     {
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
         return HNumber::nan();
     }
 
@@ -134,16 +132,14 @@ HNumber function_gcd( const Evaluator*, Function* fn, const FunctionArguments& a
 
     if ( nArgs < 2 )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function requires at least 2 arguments" ) );
+        fn->setError( fn->name(), QString( "function requires at least 2 arguments" ) );
         return HNumber::nan();
     }
 
     for ( int i = 0; i < args.count(); i++ )
         if ( !args[i].isInteger() )
         {
-            fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                               "function requires integer arguments" ) );
+            fn->setError( fn->name(), QString( "function requires integer arguments" ) );
             return HNumber::nan();
         }
 
@@ -161,8 +157,7 @@ HNumber function_round( const Evaluator*, Function* fn, const FunctionArguments&
 
     if( nArgs != 1 && nArgs != 2 )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function requires 1 or 2 arguments" ) );
+        fn->setError( fn->name(), QString( "function requires 1 or 2 arguments" ) );
         return HNumber::nan();
     }
 
@@ -176,8 +171,7 @@ HNumber function_round( const Evaluator*, Function* fn, const FunctionArguments&
 
     if( !prec.isInteger() )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function requires integer P2" ) );
+        fn->setError( fn->name(), QString( "function requires integer P2" ) );
         return HNumber::nan();
     }
 
@@ -201,8 +195,7 @@ HNumber function_sqrt( const Evaluator*, Function* fn, const FunctionArguments& 
     HNumber num = args[0];
     if( num < HNumber(0) )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
         return HNumber::nan();
     }
 
@@ -236,8 +229,7 @@ HNumber function_ln( const Evaluator*, Function* fn, const FunctionArguments& ar
     HNumber result = HMath::ln( x );
 
     if( result.isNan() )
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
 
     return result;
 }
@@ -251,8 +243,7 @@ HNumber function_log( const Evaluator*, Function* fn, const FunctionArguments& a
     HNumber result = HMath::log( x );
 
     if( result.isNan() )
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
 
     return result;
 }
@@ -266,8 +257,7 @@ HNumber function_lg( const Evaluator*, Function* fn, const FunctionArguments& ar
     HNumber result = HMath::lg( x );
 
     if( result.isNan() )
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
 
     return result;
 }
@@ -308,8 +298,7 @@ HNumber function_tan( const Evaluator* eval, Function* fn, const FunctionArgumen
     HNumber result = HMath::tan( angle );
     if ( result.isNan() )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
         return HNumber::nan();
     }
 
@@ -328,8 +317,7 @@ HNumber function_cot( const Evaluator* eval, Function* fn, const FunctionArgumen
     HNumber result = HMath::cot( angle );
     if ( result.isNan() )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
         return HNumber::nan();
     }
 
@@ -348,8 +336,7 @@ HNumber function_sec( const Evaluator* eval, Function* fn, const FunctionArgumen
     HNumber result = HMath::sec( angle );
     if ( result.isNan() )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
         return HNumber::nan();
     }
 
@@ -368,8 +355,7 @@ HNumber function_csc( const Evaluator* eval, Function* fn, const FunctionArgumen
     HNumber result = HMath::csc( angle );
     if ( result.isNan() )
     {
-        fn->setError( fn->name(), QCoreApplication::translate( "functions",
-                                                           "function undefined for specified argument" ) );
+        fn->setError( fn->name(), QString( "function undefined for specified argument" ) );
         return HNumber::nan();
     }
 
@@ -389,8 +375,7 @@ HNumber function_asin( const Evaluator         * evaluator,
 
     if ( result.isNan() )
     {
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified argument" ) );
+        function->setError( function->name(), QString( "function undefined for specified argument" ) );
         return HNumber::nan();
     }
 
@@ -413,8 +398,7 @@ HNumber function_acos( const Evaluator         * evaluator,
 
     if ( result.isNan() )
     {
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified argument" ) );
+        function->setError( function->name(), QString( "function undefined for specified argument" ) );
         return HNumber::nan();
     }
 
@@ -492,8 +476,7 @@ HNumber function_nCr( const Evaluator         * evaluator,
 
     // check invalid usage and set error accordingly
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -513,8 +496,7 @@ HNumber function_nPr( const Evaluator         * evaluator,
 
     // check invalid usage and set error accordingly
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -543,8 +525,7 @@ HNumber function_max( const Evaluator         * evaluator,
 {
     if ( arguments.count() < 1 )
     {
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function requires at least 1 argument" ) );
+        function->setError( function->name(), QString( "function requires at least 1 argument" ) );
         return HNumber::nan();
     }
 
@@ -563,8 +544,7 @@ HNumber function_min( const Evaluator         * evaluator,
 {
     if ( arguments.count() < 1 )
     {
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function requires at least 1 argument" ) );
+        function->setError( function->name(), QString( "function requires at least 1 argument" ) );
         return HNumber::nan();
     }
 
@@ -681,8 +661,7 @@ HNumber function_binompmf( const Evaluator         * evaluator,
     HNumber result = HMath::binomialPmf( k, n, p );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -700,8 +679,7 @@ HNumber function_binomcdf( const Evaluator         * evaluator,
     HNumber result = HMath::binomialCdf( k, n, p );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -718,8 +696,7 @@ HNumber function_binommean( const Evaluator         * evaluator,
     HNumber result = HMath::binomialMean( n, p );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -736,8 +713,7 @@ HNumber function_binomvar( const Evaluator         * evaluator,
     HNumber result = HMath::binomialVariance( n, p );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -756,8 +732,7 @@ HNumber function_hyperpmf( const Evaluator         * evaluator,
     HNumber result = HMath::hypergeometricPmf( k, N, M, n );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -776,8 +751,7 @@ HNumber function_hypercdf( const Evaluator         * evaluator,
     HNumber result = HMath::hypergeometricCdf( k, N, M, n );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -795,8 +769,7 @@ HNumber function_hypermean( const Evaluator         * evaluator,
     HNumber result = HMath::hypergeometricMean( N, M, n );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -814,8 +787,7 @@ HNumber function_hypervar( const Evaluator         * evaluator,
     HNumber result = HMath::hypergeometricVariance( N, M, n );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -832,8 +804,7 @@ HNumber function_poipmf( const Evaluator         * evaluator,
     HNumber result = HMath::poissonPmf( k, l );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -850,8 +821,7 @@ HNumber function_poicdf( const Evaluator         * evaluator,
     HNumber result = HMath::poissonCdf( k, l );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -867,8 +837,7 @@ HNumber function_poimean( const Evaluator         * evaluator,
     HNumber result = HMath::poissonMean( l );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -884,8 +853,7 @@ HNumber function_poivar( const Evaluator         * evaluator,
     HNumber result = HMath::poissonVariance( l );
 
     if ( result.isNan() )
-        function->setError( function->name(), QCoreApplication::translate( "functions",
-                                                                       "function undefined for specified arguments" ) );
+        function->setError( function->name(), QString( "function undefined for specified arguments" ) );
 
     return result;
 }
@@ -914,7 +882,7 @@ Function::Function( const QString& name, int argc, FunctionPtr ptr, const QStrin
 {
     d->name = name;
     d->argc = argc;
-    d->desc = QCoreApplication::translate( "FunctionRepository", desc.toLatin1() );
+    d->desc = QString( desc.toLatin1() );
     d->ptr = ptr;
 }
 
@@ -923,7 +891,7 @@ Function::Function( const QString& name, FunctionPtr ptr, const QString& desc ):
 {
     d->name = name;
     d->argc = -1;
-    d->desc = QCoreApplication::translate( "FunctionRepository", desc.toLatin1() );
+    d->desc = QString( desc.toLatin1() );
     d->ptr = ptr;
 }
 
@@ -957,8 +925,7 @@ HNumber Function::exec( const Evaluator* eval, const FunctionArguments& args )
     d->error = QString();
     if( !d->ptr )
     {
-        setError( QString("error"), QString( QCoreApplication::translate( "functions",
-                                                                      "cannot execute function %1") ).arg( name() ) );
+        setError( QString("error"), QString( QString( "cannot execute function %1") ).arg( name() ) );
         return HNumber(0);
     }
 
@@ -966,11 +933,9 @@ HNumber Function::exec( const Evaluator* eval, const FunctionArguments& args )
         if( args.count() != d->argc )
         {
             if ( d->argc == 1 )
-                setError( d->name, QString( QCoreApplication::translate( "functions",
-                                                                     "function accepts 1 argument" ) ) );
+                setError( d->name, QString( QString( "function accepts 1 argument" ) ) );
             else
-                setError( d->name, QString( QCoreApplication::translate( "functions",
-                                                                     "function accepts %1 arguments" ) ).arg( d->argc ) );
+                setError( d->name, QString( QString( "function accepts %1 arguments" ) ).arg( d->argc ) );
             return HNumber(0);
         }
 
@@ -994,120 +959,120 @@ FunctionRepository::FunctionRepository()
       ANALYSIS
     */
     add( new Function( "abs",     1, function_abs,
-                       QT_TR_NOOP("Absolute Value")             ) );
+                       QString("Absolute Value")             ) );
     add( new Function( "average",    function_average,
-                       QT_TR_NOOP("Average (Arithmetic Mean)")  ) );
+                       QString("Average (Arithmetic Mean)")  ) );
     add( new Function( "log",     1, function_log,
-                       QT_TR_NOOP("Base-10 Logarithm")          ) );
+                       QString("Base-10 Logarithm")          ) );
     add( new Function( "lg",      1, function_lg,
-                       QT_TR_NOOP("Base-2 Logarithm")           ) );
+                       QString("Base-2 Logarithm")           ) );
     add( new Function( "bin",        function_bin,
-                       QT_TR_NOOP("Binary Representation")      ) );
+                       QString("Binary Representation")      ) );
     add( new Function( "ceil",    1, function_ceil,
-                       QT_TR_NOOP("Ceiling")                    ) );
+                       QString("Ceiling")                    ) );
     add( new Function( "cbrt",    1, function_cbrt,
-                       QT_TR_NOOP("Cube Root")                  ) );
+                       QString("Cube Root")                  ) );
     add( new Function( "dec",        function_dec,
-                       QT_TR_NOOP("Decimal Representation")     ) );
+                       QString("Decimal Representation")     ) );
     add( new Function( "exp",     1, function_exp,
-                       QT_TR_NOOP("Exponential")                ) );
+                       QString("Exponential")                ) );
     add( new Function( "floor",   1, function_floor,
-                       QT_TR_NOOP("Floor")                      ) );
+                       QString("Floor")                      ) );
     add( new Function( "frac",    1, function_frac,
-                       QT_TR_NOOP("Fractional Part")            ) );
+                       QString("Fractional Part")            ) );
     add( new Function( "geomean",    function_geomean,
-                       QT_TR_NOOP("Geometric Mean")             ) );
+                       QString("Geometric Mean")             ) );
     add( new Function( "hex",        function_hex,
-                       QT_TR_NOOP("Hexadecimal Representation") ) );
+                       QString("Hexadecimal Representation") ) );
     add( new Function( "int",     1, function_int,
-                       QT_TR_NOOP("Integer Part")               ) );
+                       QString("Integer Part")               ) );
     add( new Function( "max",        function_max,
-                       QT_TR_NOOP("Maximum")                    ) );
+                       QString("Maximum")                    ) );
     add( new Function( "min",        function_min,
-                       QT_TR_NOOP("Minimum")                    ) );
+                       QString("Minimum")                    ) );
     add( new Function( "ln",      1, function_ln,
-                       QT_TR_NOOP("Natural Logarithm")          ) );
+                       QString("Natural Logarithm")          ) );
     add( new Function( "oct",        function_oct,
-                       QT_TR_NOOP("Octal Representation")       ) );
+                       QString("Octal Representation")       ) );
     add( new Function( "product",    function_product,
-                       QT_TR_NOOP("Product")                    ) );
+                       QString("Product")                    ) );
     add( new Function( "round",      function_round,
-                       QT_TR_NOOP("Rounding")                   ) );
+                       QString("Rounding")                   ) );
     add( new Function( "sign",    1, function_sign,
-                       QT_TR_NOOP("Signum")                     ) );
+                       QString("Signum")                     ) );
     add( new Function( "sqrt",    1, function_sqrt,
-                       QT_TR_NOOP("Square Root")                ) );
+                       QString("Square Root")                ) );
     add( new Function( "sum",        function_sum,
-                       QT_TR_NOOP("Sum")                        ) );
+                       QString("Sum")                        ) );
     add( new Function( "trunc",      function_trunc,
-                       QT_TR_NOOP("Truncation")                 ) );
+                       QString("Truncation")                 ) );
     /*
       DISCRETE
     */
     add( new Function( "gcd",     function_gcd,
-                       QT_TR_NOOP("Greatest Common Divisor")            ) );
+                       QString("Greatest Common Divisor")            ) );
     add( new Function( "ncr",  2, function_nCr,
-                       QT_TR_NOOP("Combination (Binomial Coefficient)") ) );
+                       QString("Combination (Binomial Coefficient)") ) );
     add( new Function( "npr",  2, function_nPr,
-                       QT_TR_NOOP("Permutation (Arrangement)")          ) );
+                       QString("Permutation (Arrangement)")          ) );
     /*
       PROBABILITY
     */
     add( new Function( "binompmf",  3, function_binompmf,
-                       QT_TR_NOOP("Binomial Probability Mass Function")        ));
+                       QString("Binomial Probability Mass Function")        ));
     add( new Function( "binomcdf",  3, function_binomcdf,
-                       QT_TR_NOOP("Binomial Cumulative Distribution Function") ));
+                       QString("Binomial Cumulative Distribution Function") ));
     add( new Function( "binommean", 2, function_binommean,
-                       QT_TR_NOOP("Binomial Distribution Mean")                ));
+                       QString("Binomial Distribution Mean")                ));
     add( new Function( "binomvar",  2, function_binomvar,
-                       QT_TR_NOOP("Binomial Distribution Variance")            ));
+                       QString("Binomial Distribution Variance")            ));
     add( new Function( "hyperpmf",  4, function_hyperpmf,
-                       QT_TR_NOOP("Hypergeometric Probability Mass Function")  ));
+                       QString("Hypergeometric Probability Mass Function")  ));
     add( new Function( "hypercdf",  4, function_hypercdf,
-                       QT_TR_NOOP("Hypergeometric Cumulative Distribution Function")));
+                       QString("Hypergeometric Cumulative Distribution Function")));
     add( new Function( "hypermean", 3, function_hypermean,
-                       QT_TR_NOOP("Hypergeometric Distribution Mean")          ));
+                       QString("Hypergeometric Distribution Mean")          ));
     add( new Function( "hypervar",  3, function_hypervar,
-                       QT_TR_NOOP("Hypergeometric Distribution Variance")      ));
+                       QString("Hypergeometric Distribution Variance")      ));
     add( new Function( "poipmf",    2, function_poipmf,
-                       QT_TR_NOOP("Poissonian Probability Mass Function")      ));
+                       QString("Poissonian Probability Mass Function")      ));
     add( new Function( "poicdf",    2, function_poicdf,
-                       QT_TR_NOOP("Poissonian Cumulative Distribution Function")));
+                       QString("Poissonian Cumulative Distribution Function")));
     add( new Function( "poimean",   1, function_poimean,
-                       QT_TR_NOOP("Poissonian Distribution Mean")              ));
+                       QString("Poissonian Distribution Mean")              ));
     add( new Function( "poivar",    1, function_poivar,
-                       QT_TR_NOOP("Poissonian Distribution Variance")          ));
+                       QString("Poissonian Distribution Variance")          ));
     /*
       TRIGONOMETRY
     */
     add( new Function( "acos",    1, function_acos,
-                       QT_TR_NOOP("Arc Cosine")         ) );
+                       QString("Arc Cosine")         ) );
     add( new Function( "asin",    1, function_asin,
-                       QT_TR_NOOP("Arc Sine")           ) );
+                       QString("Arc Sine")           ) );
     add( new Function( "atan",    1, function_atan,
-                       QT_TR_NOOP("Arc Tangent")        ) );
+                       QString("Arc Tangent")        ) );
     add( new Function( "csc",     1, function_csc,
-                       QT_TR_NOOP("Cosecant")           ) );
+                       QString("Cosecant")           ) );
     add( new Function( "cos",     1, function_cos,
-                       QT_TR_NOOP("Cosine")             ) );
+                       QString("Cosine")             ) );
     add( new Function( "cot",     1, function_cot,
-                       QT_TR_NOOP("Cotangent")          ) );
+                       QString("Cotangent")          ) );
     add( new Function( "cosh",    1, function_cosh,
-                       QT_TR_NOOP("Hyperbolic Cosine")  ) );
+                       QString("Hyperbolic Cosine")  ) );
     add( new Function( "degrees", 1, function_degrees,
-                       QT_TR_NOOP("Degrees Of Arc")     ) );
+                       QString("Degrees Of Arc")     ) );
     add( new Function( "radians", 1, function_radians,
-                       QT_TR_NOOP("Radians")            ) );
+                       QString("Radians")            ) );
     add( new Function( "sinh",    1, function_sinh,
-                       QT_TR_NOOP("Hyperbolic Sine")    ) );
+                       QString("Hyperbolic Sine")    ) );
     add( new Function( "tanh",    1, function_tanh,
-                       QT_TR_NOOP("Hyperbolic Tangent") ) );
+                       QString("Hyperbolic Tangent") ) );
     add( new Function( "sec",     1, function_sec,
-                       QT_TR_NOOP("Secant")             ) );
+                       QString("Secant")             ) );
     add( new Function( "sin",     1, function_sin,
-                       QT_TR_NOOP("Sine")               ) );
+                       QString("Sine")               ) );
     add( new Function( "tan",     1, function_tan,
-                       QT_TR_NOOP("Tangent")            ) );
+                       QString("Tangent")            ) );
 }
 
 FunctionRepository::~FunctionRepository()
