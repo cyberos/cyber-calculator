@@ -164,7 +164,7 @@
     <message>
         <location filename="../engine/functions.cpp" line="1003"/>
         <source>Base-2 Logarithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Logarytm o podstawie 2</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1005"/>
