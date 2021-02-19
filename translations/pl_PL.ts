@@ -46,7 +46,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="28"/>
         <source>fine-structure constant</source>
-        <translation>stała drobnoziarnista</translation>
+        <translation type="unfinished">stała drobnoziarnista</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="29"/>
