@@ -51,7 +51,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="29"/>
         <source>Hartree energy</source>
-        <translation>Energia Hartree</translation>
+        <translation type="unfinished">Energia Hartree</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="30"/>
