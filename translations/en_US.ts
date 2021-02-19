@@ -41,37 +41,37 @@
     <message>
         <location filename="../engine/constants.cpp" line="27"/>
         <source>Fermi coupling constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Fermi coupling constant</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="28"/>
         <source>fine-structure constant</source>
-        <translation type="unfinished"></translation>
+        <translation>fine-structure constant</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="29"/>
         <source>Hartree energy</source>
-        <translation type="unfinished"></translation>
+        <translation>Hartree energy</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="30"/>
         <source>quantum of circulation</source>
-        <translation type="unfinished"></translation>
+        <translation>quantum of circulation</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="31"/>
         <source>Rydberg constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Rydberg constant</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="32"/>
         <source>Thomson cross section</source>
-        <translation type="unfinished"></translation>
+        <translation>Thomson cross section</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="33"/>
         <source>weak mixing angle</source>
-        <translation type="unfinished"></translation>
+        <translation>weak mixing angle</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="36"/>
@@ -91,7 +91,7 @@
         <location filename="../engine/constants.cpp" line="45"/>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Astronomy</source>
-        <translation type="unfinished"></translation>
+        <translation>Astronomy</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="37"/>
@@ -101,47 +101,47 @@
     <message>
         <location filename="../engine/constants.cpp" line="38"/>
         <source>parsec</source>
-        <translation type="unfinished"></translation>
+        <translation>parsec</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="39"/>
         <source>sidereal year</source>
-        <translation type="unfinished"></translation>
+        <translation>sidereal year</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="40"/>
         <source>tropical year</source>
-        <translation type="unfinished"></translation>
+        <translation>tropical year</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="41"/>
         <source>Gregorian year</source>
-        <translation type="unfinished"></translation>
+        <translation>Gregorian year</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="42"/>
         <source>Earth mass</source>
-        <translation type="unfinished"></translation>
+        <translation>Earth mass</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="43"/>
         <source>Sun mass</source>
-        <translation type="unfinished"></translation>
+        <translation>Sun mass</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="44"/>
         <source>mean Earth radius</source>
-        <translation type="unfinished"></translation>
+        <translation>mean Earth radius</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="45"/>
         <source>Sun radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Sun radius</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="46"/>
         <source>Sun luminosity</source>
-        <translation type="unfinished"></translation>
+        <translation>Sun luminosity</translation>
     </message>
 </context>
 <context>
@@ -149,267 +149,267 @@
     <message>
         <location filename="../engine/functions.cpp" line="997"/>
         <source>Absolute Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Absolute Value</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="999"/>
         <source>Average (Arithmetic Mean)</source>
-        <translation type="unfinished"></translation>
+        <translation>Average (Arithmetic Mean)</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1001"/>
         <source>Base-10 Logarithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Base-10 Logarithm</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1003"/>
         <source>Base-2 Logarithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Base-2 Logarithm</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1005"/>
         <source>Binary Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Binary Representation</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1007"/>
         <source>Ceiling</source>
-        <translation type="unfinished"></translation>
+        <translation>Ceiling</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1009"/>
         <source>Cube Root</source>
-        <translation type="unfinished"></translation>
+        <translation>Cube Root</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1011"/>
         <source>Decimal Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Decimal Representation</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1013"/>
         <source>Exponential</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponential</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1015"/>
         <source>Floor</source>
-        <translation type="unfinished"></translation>
+        <translation>Floor</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1017"/>
         <source>Fractional Part</source>
-        <translation type="unfinished"></translation>
+        <translation>Fractional Part</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1019"/>
         <source>Geometric Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometric Mean</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1021"/>
         <source>Hexadecimal Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Hexadecimal Representation</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1023"/>
         <source>Integer Part</source>
-        <translation type="unfinished"></translation>
+        <translation>Integer Part</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1025"/>
         <source>Maximum</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximum</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1027"/>
         <source>Minimum</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimum</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1029"/>
         <source>Natural Logarithm</source>
-        <translation type="unfinished"></translation>
+        <translation>Natural Logarithm</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1031"/>
         <source>Octal Representation</source>
-        <translation type="unfinished"></translation>
+        <translation>Octal Representation</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1033"/>
         <source>Product</source>
-        <translation type="unfinished"></translation>
+        <translation>Product</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1035"/>
         <source>Rounding</source>
-        <translation type="unfinished"></translation>
+        <translation>Rounding</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1037"/>
         <source>Signum</source>
-        <translation type="unfinished"></translation>
+        <translation>Signum</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1039"/>
         <source>Square Root</source>
-        <translation type="unfinished"></translation>
+        <translation>Square Root</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1041"/>
         <source>Sum</source>
-        <translation type="unfinished"></translation>
+        <translation>Sum</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1043"/>
         <source>Truncation</source>
-        <translation type="unfinished"></translation>
+        <translation>Truncation</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1048"/>
         <source>Greatest Common Divisor</source>
-        <translation type="unfinished"></translation>
+        <translation>Greatest Common Divisor</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1050"/>
         <source>Combination (Binomial Coefficient)</source>
-        <translation type="unfinished"></translation>
+        <translation>Combination (Binomial Coefficient)</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1052"/>
         <source>Permutation (Arrangement)</source>
-        <translation type="unfinished"></translation>
+        <translation>Permutation (Arrangement)</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1057"/>
         <source>Binomial Probability Mass Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Binomial Probability Mass Function</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1059"/>
         <source>Binomial Cumulative Distribution Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Binomial Cumulative Distribution Function</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1061"/>
         <source>Binomial Distribution Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Binomial Distribution Mean</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1063"/>
         <source>Binomial Distribution Variance</source>
-        <translation type="unfinished"></translation>
+        <translation>Binomial Distribution Variance</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1065"/>
         <source>Hypergeometric Probability Mass Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Hypergeometric Probability Mass Function</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1067"/>
         <source>Hypergeometric Cumulative Distribution Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Hypergeometric Cumulative Distribution Function</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1069"/>
         <source>Hypergeometric Distribution Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Hypergeometric Distribution Mean</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1071"/>
         <source>Hypergeometric Distribution Variance</source>
-        <translation type="unfinished"></translation>
+        <translation>Hypergeometric Distribution Variance</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1073"/>
         <source>Poissonian Probability Mass Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Poissonian Probability Mass Function</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1075"/>
         <source>Poissonian Cumulative Distribution Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Poissonian Cumulative Distribution Function</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1077"/>
         <source>Poissonian Distribution Mean</source>
-        <translation type="unfinished"></translation>
+        <translation>Poissonian Distribution Mean</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1079"/>
         <source>Poissonian Distribution Variance</source>
-        <translation type="unfinished"></translation>
+        <translation>Poissonian Distribution Variance</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1084"/>
         <source>Arc Cosine</source>
-        <translation type="unfinished"></translation>
+        <translation>Arc Cosine</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1086"/>
         <source>Arc Sine</source>
-        <translation type="unfinished"></translation>
+        <translation>Arc Sine</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1088"/>
         <source>Arc Tangent</source>
-        <translation type="unfinished"></translation>
+        <translation>Arc Tangent</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1090"/>
         <source>Cosecant</source>
-        <translation type="unfinished"></translation>
+        <translation>Cosecant</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1092"/>
         <source>Cosine</source>
-        <translation type="unfinished"></translation>
+        <translation>Cosine</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1094"/>
         <source>Cotangent</source>
-        <translation type="unfinished"></translation>
+        <translation>Cotangent</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1096"/>
         <source>Hyperbolic Cosine</source>
-        <translation type="unfinished"></translation>
+        <translation>Hyperbolic Cosine</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1098"/>
         <source>Degrees Of Arc</source>
-        <translation type="unfinished"></translation>
+        <translation>Degrees Of Arc</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1100"/>
         <source>Radians</source>
-        <translation type="unfinished"></translation>
+        <translation>Radians</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1102"/>
         <source>Hyperbolic Sine</source>
-        <translation type="unfinished"></translation>
+        <translation>Hyperbolic Sine</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1104"/>
         <source>Hyperbolic Tangent</source>
-        <translation type="unfinished"></translation>
+        <translation>Hyperbolic Tangent</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1106"/>
         <source>Secant</source>
-        <translation type="unfinished"></translation>
+        <translation>Secant</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1108"/>
         <source>Sine</source>
-        <translation type="unfinished"></translation>
+        <translation>Sine</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="1110"/>
         <source>Tangent</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangent</translation>
     </message>
 </context>
 <context>
@@ -428,32 +428,32 @@
         <location filename="../engine/evaluator.cpp" line="1273"/>
         <location filename="../engine/evaluator.cpp" line="1298"/>
         <source>invalid expression</source>
-        <translation type="unfinished"></translation>
+        <translation>invalid expression</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
         <location filename="../engine/evaluator.cpp" line="1069"/>
         <location filename="../engine/evaluator.cpp" line="1076"/>
         <source>variable cannot be overwritten</source>
-        <translation type="unfinished"></translation>
+        <translation>variable cannot be overwritten</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1084"/>
         <source>identifier matches an existing function name</source>
-        <translation type="unfinished"></translation>
+        <translation>identifier matches an existing function name</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1169"/>
         <location filename="../engine/evaluator.cpp" line="1209"/>
         <location filename="../engine/evaluator.cpp" line="1226"/>
         <source>division by zero</source>
-        <translation type="unfinished"></translation>
+        <translation>division by zero</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1249"/>
         <location filename="../engine/evaluator.cpp" line="1266"/>
         <source>unknown function or variable</source>
-        <translation type="unfinished"></translation>
+        <translation>unknown function or variable</translation>
     </message>
 </context>
 <context>
@@ -462,7 +462,7 @@
         <location filename="../engine/functions.cpp" line="71"/>
         <location filename="../engine/functions.cpp" line="164"/>
         <source>function requires 1 or 2 arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>function requires 1 or 2 arguments</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="85"/>
@@ -481,22 +481,22 @@
         <location filename="../engine/functions.cpp" line="870"/>
         <location filename="../engine/functions.cpp" line="887"/>
         <source>function undefined for specified arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>function undefined for specified arguments</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="137"/>
         <source>function requires at least 2 arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>function requires at least 2 arguments</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="145"/>
         <source>function requires integer arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>function requires integer arguments</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="179"/>
         <source>function requires integer P2</source>
-        <translation type="unfinished"></translation>
+        <translation>function requires integer P2</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="204"/>
@@ -510,28 +510,28 @@
         <location filename="../engine/functions.cpp" line="392"/>
         <location filename="../engine/functions.cpp" line="416"/>
         <source>function undefined for specified argument</source>
-        <translation type="unfinished"></translation>
+        <translation>function undefined for specified argument</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="546"/>
         <location filename="../engine/functions.cpp" line="566"/>
         <source>function requires at least 1 argument</source>
-        <translation type="unfinished"></translation>
+        <translation>function requires at least 1 argument</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="960"/>
         <source>cannot execute function %1</source>
-        <translation type="unfinished"></translation>
+        <translation>cannot execute function %1</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="969"/>
         <source>function accepts 1 argument</source>
-        <translation type="unfinished"></translation>
+        <translation>function accepts 1 argument</translation>
     </message>
     <message>
         <location filename="../engine/functions.cpp" line="972"/>
         <source>function accepts %1 arguments</source>
-        <translation type="unfinished"></translation>
+        <translation>function accepts %1 arguments</translation>
     </message>
 </context>
 <context>
@@ -539,7 +539,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>Calculator</translation>
     </message>
 </context>
 </TS>
