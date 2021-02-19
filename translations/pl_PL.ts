@@ -126,7 +126,7 @@
     <message>
         <location filename="../engine/constants.cpp" line="43"/>
         <source>Sun mass</source>
-        <translation>Masa Słońca</translation>
+        <translation type="unfinished">Masa Słońca</translation>
     </message>
     <message>
         <location filename="../engine/constants.cpp" line="44"/>
