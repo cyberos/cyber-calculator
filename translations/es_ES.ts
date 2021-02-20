@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Pegar</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>Calculadora</translation>
     </message>
 </context>
 </TS>
