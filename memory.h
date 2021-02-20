@@ -37,8 +37,8 @@ public:
     QString text();
     void setText(const QString &text);
 
-    Q_INVOKABLE void increase();
-    Q_INVOKABLE void decrease();
+    Q_INVOKABLE void increase(const QString &curNum);
+    Q_INVOKABLE void decrease(const QString &curNum);
 
 signals:
     void textChanged();
