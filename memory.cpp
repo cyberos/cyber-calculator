@@ -35,27 +35,37 @@ void Memory::setText(const QString &text) {
     }
 }
 
-void Memory::increase() {
+void Memory::increase(const QString &curNum) {
     bool success;
     int temp = m_text.toInt(&success);
     if (!success) {
-        qDebug() << "Failed to increase memory: String to int conversion failed.";
+        qDebug() << "Failed to increase memory: String to int conversion failed. (m_text)";
         return;
     }
-    temp += 1;
+    int temp2 = curNum.toInt(&success);
+    if (!success) {
+        qDebug() << "Failed to increase memory: String to int conversion failed. (curNum)";
+        return;
+    }
+    temp += temp2;
     m_text = QString::number(temp);
     emit textChanged();
 }
 
-void Memory::decrease() {
+void Memory::decrease(const QString &curNum) {
     bool success;
-    if (m_text == "") return;
+    
     int temp = m_text.toInt(&success);
     if (!success) {
-        qDebug() << "Failed to decrease memory: String to int conversion failed.";
+        qDebug() << "Failed to decrease memory: String to int conversion failed. (m_text)";
         return;
     }
-    temp -= 1;
+    int temp2 = curNum.toInt(&success);
+    if (!success) {
+        qDebug() << "Failed to increase memory: String to int conversion failed. (curNum)";
+        return;
+    }
+    temp -= temp2;
     m_text = QString::number(temp);
     emit textChanged();
 }

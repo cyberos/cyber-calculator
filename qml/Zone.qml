@@ -97,10 +97,10 @@ Item {
                     textField.insert(textField.cursorPosition, memory.text)
                     break
                 case 'M+':
-                    memory.increase()
+                    memory.increase(textField.text)
                     break
                 case 'M-':
-                    memory.decrease()
+                    memory.decrease(textField.text)
                     break
                 case 'MS':
                     var res = calculate(textField.text)
