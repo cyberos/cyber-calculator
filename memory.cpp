@@ -37,6 +37,7 @@ void Memory::setText(const QString &text) {
 
 void Memory::increase(const QString &curNum) {
     bool success;
+    if (m_text.isEmpty()) m_text = "0";
     int temp = m_text.toInt(&success);
     if (!success) {
         qDebug() << "Failed to increase memory: String to int conversion failed. (m_text)";
