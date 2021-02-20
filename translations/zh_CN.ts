@@ -24,7 +24,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>计算器</translation>
     </message>
 </context>
 </TS>
