@@ -41,13 +41,13 @@ void Memory::increase(const QString &curNum) {
     int temp = m_text.toInt(&success);
     if (!success) {
         qDebug() << "Failed to increase memory: String to int conversion failed. (m_text)";
-        emit failed("Failed to increase memory: String to int conversion failed.");
+        emit failed("Failed to increase memory: MB001");
         return;
     }
     int temp2 = curNum.toInt(&success);
     if (!success) {
         qDebug() << "Failed to increase memory: String to int conversion failed. (curNum)";
-        emit failed("Failed to increase memory: String to int conversion failed.");
+        emit failed("Failed to increase memory: MA001");
         return;
     }
     temp += temp2;
@@ -61,13 +61,13 @@ void Memory::decrease(const QString &curNum) {
     int temp = m_text.toInt(&success);
     if (!success) {
         qDebug() << "Failed to decrease memory: String to int conversion failed. (m_text)";
-        emit failed("Failed to decrease memory: String to int conversion failed.");
+        emit failed("Failed to decrease memory: MB002");
         return;
     }
     int temp2 = curNum.toInt(&success);
     if (!success) {
         qDebug() << "Failed to decrease memory: String to int conversion failed. (curNum)";
-        emit failed("Failed to decrease memory: String to int conversion failed.");
+        emit failed("Failed to decrease memory: MA002");
         return;
     }
     temp -= temp2;
