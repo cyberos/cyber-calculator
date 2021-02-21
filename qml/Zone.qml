@@ -8,6 +8,8 @@ import org.cyber.calculator 1.0
 Item {
     id: zone
 
+    property var toast: undefined
+
     ColumnLayout {
         id: layout
         anchors.fill: parent
@@ -68,10 +70,6 @@ Item {
             toast.text = errorString
             toast.open = true
         }
-    }
-    
-    Meui.Toast {
-        id: toast
     }
 
     function appendToTextField(text) {

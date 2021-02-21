@@ -32,6 +32,9 @@ public:
 
     Q_INVOKABLE QString eval(const QString &expr);
 
+signals:
+    void failed(const QString &errorString);
+
 private:
     Evaluator *m_evaluator;
 };

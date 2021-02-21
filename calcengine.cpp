@@ -35,6 +35,7 @@ QString CalcEngine::eval(const QString &expr)
         return QString(HMath::formatFixed(m_evaluator->eval()));
     } else {
         qDebug() << m_evaluator->error();
+        emit failed(QString("Error: %1").arg(m_evaluator->error()));
     }
 
     return "";

@@ -1035,10 +1035,10 @@ HNumber Evaluator::eval()
     {
         Tokens tokens = scan(d->expression, d->decimalPoint);
 
-        // invalid expression ?
+        // invalid expression?
         if (!tokens.valid())
         {
-            d->error = QString("invalid expression");
+            d->error = QString("Invalid expression.");
             return HNumber(0);
         }
 
@@ -1110,7 +1110,7 @@ HNumber Evaluator::eval()
         case Opcode::Neg:
             if (stack.count() < 1)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1123,7 +1123,7 @@ HNumber Evaluator::eval()
         case Opcode::Add:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1135,7 +1135,7 @@ HNumber Evaluator::eval()
         case Opcode::Sub:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1147,7 +1147,7 @@ HNumber Evaluator::eval()
         case Opcode::Mul:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1159,7 +1159,7 @@ HNumber Evaluator::eval()
         case Opcode::Div:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1176,7 +1176,7 @@ HNumber Evaluator::eval()
         case Opcode::Pow:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1188,7 +1188,7 @@ HNumber Evaluator::eval()
         case Opcode::Fact:
             if (stack.count() < 1)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1199,7 +1199,7 @@ HNumber Evaluator::eval()
         case Opcode::Modulo:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1216,7 +1216,7 @@ HNumber Evaluator::eval()
         case Opcode::IntDiv:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1246,8 +1246,7 @@ HNumber Evaluator::eval()
                     refs.push(fname);
                 else
                 {
-                    d->error = fname + ": " + QString(
-                                                               "unknown function or variable");
+                    d->error = fname + ": " + QString("unknown function or variable");
                     return HNumber(0);
                 }
             }
@@ -1270,7 +1269,7 @@ HNumber Evaluator::eval()
 
             if (stack.count() < index)
             {
-                d->error = QString("invalid expression");
+                d->error = QString("Invalid expression.");
                 return HNumber(0);
             }
 
@@ -1295,7 +1294,7 @@ HNumber Evaluator::eval()
     // more than one value in stack ? unsuccesfull execution...
     if (stack.count() != 1)
     {
-        d->error = QString("invalid expression");
+        d->error = QString("Invalid expression.");
         return HNumber(0);
     }
 
