@@ -64,6 +64,14 @@ Item {
 
     Memory {
         id: memory
+        onFailed: {
+            toast.text = errorString
+            toast.open = true
+        }
+    }
+    
+    Meui.Toast {
+        id: toast
     }
 
     function appendToTextField(text) {
