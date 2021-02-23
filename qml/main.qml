@@ -36,6 +36,11 @@ Meui.Window {
         Component.onCompleted: {
             console.log("load calc engine finished")
         }
+
+        onFailed: {
+            toast.text = errorString
+            toast.open = true
+        }
     }
 
     ColumnLayout {
@@ -46,6 +51,7 @@ Meui.Window {
             id: zone
             Layout.fillWidth: true
             Layout.preferredHeight: parent.height * 0.35
+            toast: toast
         }
 
         MemoryButtonsView {
@@ -70,5 +76,22 @@ Meui.Window {
     function calculate(evalText) {
         var res = calcEngine.eval(evalText)
         return res
+    }
+
+    Item {
+        x: 0
+        y: 0
+        z: 2
+        anchors.fill: parent
+
+        ColumnLayout {
+            anchors.fill: parent
+            anchors.margins: Meui.Units.largeSpacing
+
+            Meui.Toast {
+                id: toast
+                focus: toast.open
+            }
+        }
     }
 }

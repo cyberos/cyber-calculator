@@ -1035,10 +1035,10 @@ HNumber Evaluator::eval()
     {
         Tokens tokens = scan(d->expression, d->decimalPoint);
 
-        // invalid expression ?
+        // invalid expression?
         if (!tokens.valid())
         {
-            d->error = QString("invalid expression");
+            d->error = QObject::tr("Invalid expression.");
             return HNumber(0);
         }
 
@@ -1059,30 +1059,26 @@ HNumber Evaluator::eval()
     // can not overwrite pi
     if (d->assignId == QString("pi"))
     {
-        d->error = d->assignId + ": " + QString(
-                                                         "variable cannot be overwritten");
+        d->error = d->assignId + ": " + QObject::tr("Variable cannot be overwritten.");
         return HNumber(0);
     }
     // can not overwrite phi
     if (d->assignId == QString("phi"))
     {
-        d->error = d->assignId + ": " + QString(
-                                                         "variable cannot be overwritten");
+        d->error = d->assignId + ": " + QObject::tr("Variable cannot be overwritten.");
         return HNumber(0);
     }
     // can not overwrite ans
     if (d->assignId == QString("ans"))
     {
-        d->error = d->assignId + ": " + QString(
-                                                         "variable cannot be overwritten");
+        d->error = d->assignId + ": " + QObject::tr("Variable cannot be overwritten.");
         return HNumber(0);
     }
 
     // variable can't have the same name as function
     if (FunctionRepository::self()->function(d->assignId))
     {
-        d->error = d->assignId + ": " +  QString(
-                                                          "identifier matches an existing function name");
+        d->error = d->assignId + ": " + QObject::tr("Identifier matches an existing function name.");
         return HNumber(0);
     }
 
@@ -1110,7 +1106,7 @@ HNumber Evaluator::eval()
         case Opcode::Neg:
             if (stack.count() < 1)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1123,7 +1119,7 @@ HNumber Evaluator::eval()
         case Opcode::Add:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1135,7 +1131,7 @@ HNumber Evaluator::eval()
         case Opcode::Sub:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1147,7 +1143,7 @@ HNumber Evaluator::eval()
         case Opcode::Mul:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1159,14 +1155,14 @@ HNumber Evaluator::eval()
         case Opcode::Div:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
             val2 = stack.pop();
             if (val1.isZero())
             {
-                d->error = QString("division by zero");
+                d->error = QObject::tr("Division by zero.");
                 return HNumber(0);
             }
             val2 /= val1;
@@ -1176,7 +1172,7 @@ HNumber Evaluator::eval()
         case Opcode::Pow:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1188,7 +1184,7 @@ HNumber Evaluator::eval()
         case Opcode::Fact:
             if (stack.count() < 1)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
@@ -1199,14 +1195,14 @@ HNumber Evaluator::eval()
         case Opcode::Modulo:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
             val2 = stack.pop();
             if (val1.isZero())
             {
-                d->error = QString("division by zero");
+                d->error = QObject::tr("Division by zero.");
                 return HNumber(0);
             }
             val2 = val2 % val1;
@@ -1216,14 +1212,14 @@ HNumber Evaluator::eval()
         case Opcode::IntDiv:
             if (stack.count() < 2)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
             val1 = stack.pop();
             val2 = stack.pop();
             if (val1.isZero())
             {
-                d->error = QString("division by zero");
+                d->error = QObject::tr("Division by zero.");
                 return HNumber(0);
             }
             val2 /= val1;
@@ -1246,8 +1242,7 @@ HNumber Evaluator::eval()
                     refs.push(fname);
                 else
                 {
-                    d->error = fname + ": " + QString(
-                                                               "unknown function or variable");
+                    d->error = fname + ": " + QObject::tr("Unknown function or variable.");
                     return HNumber(0);
                 }
             }
@@ -1263,14 +1258,13 @@ HNumber Evaluator::eval()
             function = FunctionRepository::self()->function(fname);
             if (!function)
             {
-                d->error = fname + ": " + QString(
-                                                           "unknown function or variable");
+                d->error = fname + ": " + QObject::tr("Unknown function or variable.");
                 return HNumber(0);
             }
 
             if (stack.count() < index)
             {
-                d->error = QString("invalid expression");
+                d->error = QObject::tr("Invalid expression.");
                 return HNumber(0);
             }
 
@@ -1295,7 +1289,7 @@ HNumber Evaluator::eval()
     // more than one value in stack ? unsuccesfull execution...
     if (stack.count() != 1)
     {
-        d->error = QString("invalid expression");
+        d->error = QObject::tr("Invalid expression.");
         return HNumber(0);
     }
 

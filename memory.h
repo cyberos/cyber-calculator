@@ -42,6 +42,7 @@ public:
 
 signals:
     void textChanged();
+    void failed(const QString &errorString);
 
 private:
     QString m_text;
