@@ -29,20 +29,32 @@ Item {
                 height: buttonsView.height / grid.rows - Meui.Units.smallSpacing / 2
                 onClicked: buttonsView.buttonClicked(targets[index])
                 onPressAndHold: buttonsView.buttonLongPressed(targets[index])
+                hoverEnabled: true
 
                 Rectangle {
                     anchors.centerIn: parent
                     radius: Meui.Theme.smallRadius
                     width: parent.width - radius
                     height: parent.height - radius
-                    color: buttonRect.pressed ? Meui.Theme.highlightColor : Meui.Theme.backgroundColor
+                    color: buttonRect.pressed ? 
+                        Meui.Theme.highlightColor
+                        : buttonRect.containsMouse ?
+                            Meui.Theme.darkMode ?
+                                Qt.lighter(Meui.Theme.backgroundColor, 1.25)
+                                : Qt.darker(Meui.Theme.backgroundColor, 1.1)
+                            : Meui.Theme.backgroundColor
 
                     border.width: 1
                     border.color: Meui.Theme.darkMode ? Qt.lighter(Meui.Theme.backgroundColor, 1.1) : Qt.darker(Meui.Theme.backgroundColor, 1.1)
 
                     Behavior on color {
                         ColorAnimation {
-                            duration: 50
+                            /*
+                                50 is way too fast for a 60hz monitor to display,
+                                and for an eye to catch it happening.
+                            */
+                            duration: 100
+                            easing.type: Easing.InOutCubic
                         }
                     }
                 }
