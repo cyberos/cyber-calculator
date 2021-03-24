@@ -40,7 +40,7 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished">唔啱嘅表達式</translation>
+        <translation>唔啱嘅表達式。</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
@@ -52,20 +52,20 @@
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished"></translation>
+        <translation>識別碼同現有嘅函數名相符。</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
-        <translation type="unfinished"></translation>
+        <translation>畀零除。</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
-        <translation type="unfinished"></translation>
+        <translation>未知函數或變量。</translation>
     </message>
 </context>
 <context>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation>計算機</translation>
     </message>
 </context>
 </TS>
