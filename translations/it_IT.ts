@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tagliare</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Incolla</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Errore: %1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
@@ -40,32 +40,32 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Espressione non valida.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
         <location filename="../engine/evaluator.cpp" line="1068"/>
         <location filename="../engine/evaluator.cpp" line="1074"/>
         <source>Variable cannot be overwritten.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">La variabile non può essere sovrascritta.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">L&apos;identificatore corrisponde a un nome di funzione esistente.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Divisione per zero.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Funzione o variabile sconosciuta.</translation>
     </message>
 </context>
 <context>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Calcolatrice</translation>
     </message>
 </context>
 </TS>
