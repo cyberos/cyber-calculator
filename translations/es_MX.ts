@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Error: %1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
@@ -40,32 +40,32 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Expresión no válida.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
         <location filename="../engine/evaluator.cpp" line="1068"/>
         <location filename="../engine/evaluator.cpp" line="1074"/>
         <source>Variable cannot be overwritten.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">La variable no puede ser sobrescrita.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">El identificador coincide con un nombre de función existente.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">División por cero.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Función o variable desconocida.</translation>
     </message>
 </context>
 <context>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Calculadora</translation>
     </message>
 </context>
 </TS>
