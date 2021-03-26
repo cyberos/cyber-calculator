@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Erro: %1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
@@ -40,32 +40,32 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Expressão inválida.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
         <location filename="../engine/evaluator.cpp" line="1068"/>
         <location filename="../engine/evaluator.cpp" line="1074"/>
         <source>Variable cannot be overwritten.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">A variável não pode ser sobregravada.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">O identificador corresponde a um nome de função existente.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Divisão por zero.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Função ou variável desconhecida.</translation>
     </message>
 </context>
 <context>
