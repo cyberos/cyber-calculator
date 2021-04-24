@@ -11,12 +11,12 @@
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished">کپی 🀄</translation>
+        <translation>کپی</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished">چسباندن</translation>
+        <translation>جای گذاری</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished">خطا:٪ 1</translation>
+        <translation>خطا: ٪1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
