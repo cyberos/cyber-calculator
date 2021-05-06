@@ -6,17 +6,17 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation type="unfinished">Tăiați</translation>
+        <translation>Tăiați</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished">Copiați</translation>
+        <translation>Copiați</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished">Paste</translation>
+        <translation>Lipește</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished">Eroare: %1</translation>
+        <translation>Eroare: %1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
@@ -40,32 +40,32 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished">Expresie invalidă.</translation>
+        <translation>Expresie invalidă.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
         <location filename="../engine/evaluator.cpp" line="1068"/>
         <location filename="../engine/evaluator.cpp" line="1074"/>
         <source>Variable cannot be overwritten.</source>
-        <translation type="unfinished">Variabila nu poate fi suprascrisă.</translation>
+        <translation>Variabila nu poate fi suprascrisă.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished">Identificatorul se potrivește cu un nume de funcție existent.</translation>
+        <translation>Identificatorul se potrivește cu un nume de funcție existent.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
-        <translation type="unfinished">Diviziunea cu zero.</translation>
+        <translation>Împărțire la zero.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
-        <translation type="unfinished">Funcție sau variabilă necunoscută.</translation>
+        <translation>Funcție sau variabilă necunoscută.</translation>
     </message>
 </context>
 <context>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished">Calculator</translation>
+        <translation>Calculator</translation>
     </message>
 </context>
 </TS>
