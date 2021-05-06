@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished">Помилка:% 1</translation>
+        <translation>Помилка: %1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
@@ -52,7 +52,7 @@
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished">Ідентифікатор відповідає імені існуючої функції.</translation>
+        <translation>Ідентифікатор відповідає імені існуючої функції.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
