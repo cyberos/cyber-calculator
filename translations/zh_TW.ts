@@ -40,7 +40,7 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation>無效表達。</translation>
+        <translation>無效表達式。</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
