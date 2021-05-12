@@ -30,23 +30,11 @@
 <context>
     <name></name>
     <message>
-        <location filename="../engine/evaluator.cpp" line="1165"/>
-        <location filename="../engine/evaluator.cpp" line="1205"/>
-        <location filename="../engine/evaluator.cpp" line="1222"/>
-        <source>Division by zero.</source>
-        <translation>Sıfırla bölme işlemi.</translation>
-    </message>
-    <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
         <location filename="../engine/evaluator.cpp" line="1068"/>
         <location filename="../engine/evaluator.cpp" line="1074"/>
         <source>Variable cannot be overwritten.</source>
         <translation>Değişkenin üzerine yazılamıyor.</translation>
-    </message>
-    <message>
-        <location filename="../calcengine.cpp" line="38"/>
-        <source>Error: %1</source>
-        <translation>Hata: %1</translation>
     </message>
 </context>
 </TS>
