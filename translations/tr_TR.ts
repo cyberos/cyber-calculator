@@ -30,11 +30,31 @@
 <context>
     <name></name>
     <message>
-        <location filename="../engine/evaluator.cpp" line="1062"/>
-        <location filename="../engine/evaluator.cpp" line="1068"/>
-        <location filename="../engine/evaluator.cpp" line="1074"/>
-        <source>Variable cannot be overwritten.</source>
-        <translation>Değişkenin üzerine yazılamıyor.</translation>
+        <location filename="../engine/evaluator.cpp" line="1245"/>
+        <location filename="../engine/evaluator.cpp" line="1261"/>
+        <source>Unknown function or variable.</source>
+        <translation type="unfinished">Bilinmeyen işlev veya değişken.</translation>
+    </message>
+    <message>
+        <location filename="../engine/evaluator.cpp" line="1081"/>
+        <source>Identifier matches an existing function name.</source>
+        <translation type="unfinished">Tanımlayıcı, mevcut bir işlev adıyla eşleşir.</translation>
+    </message>
+    <message>
+        <location filename="../engine/evaluator.cpp" line="1041"/>
+        <location filename="../engine/evaluator.cpp" line="1109"/>
+        <location filename="../engine/evaluator.cpp" line="1122"/>
+        <location filename="../engine/evaluator.cpp" line="1134"/>
+        <location filename="../engine/evaluator.cpp" line="1146"/>
+        <location filename="../engine/evaluator.cpp" line="1158"/>
+        <location filename="../engine/evaluator.cpp" line="1175"/>
+        <location filename="../engine/evaluator.cpp" line="1187"/>
+        <location filename="../engine/evaluator.cpp" line="1198"/>
+        <location filename="../engine/evaluator.cpp" line="1215"/>
+        <location filename="../engine/evaluator.cpp" line="1267"/>
+        <location filename="../engine/evaluator.cpp" line="1292"/>
+        <source>Invalid expression.</source>
+        <translation type="unfinished">Geçersiz ifade.</translation>
     </message>
 </context>
 </TS>
