@@ -40,7 +40,7 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation>Kehtetu avaldis.</translation>
+        <translation type="unfinished">Kehtetu avaldis.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
@@ -52,20 +52,20 @@
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Identifikaator vastab olemasolevale funktsiooni nimele.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Jagamine nulliga.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Teadmata funktsioon või muutuja.</translation>
     </message>
 </context>
 <context>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Kalkulaator</translation>
     </message>
 </context>
 </TS>
