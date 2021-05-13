@@ -6,7 +6,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation>Lõika</translation>
+        <translation type="unfinished">Lõika</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
