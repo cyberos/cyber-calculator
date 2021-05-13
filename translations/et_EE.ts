@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation>Kleebi</translation>
+        <translation type="unfinished">Kleebi</translation>
     </message>
 </context>
 <context>
