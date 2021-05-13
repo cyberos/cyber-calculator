@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation>Viga:%1</translation>
+        <translation type="unfinished">Viga:%1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
