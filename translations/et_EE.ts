@@ -6,17 +6,17 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Lõika</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopeeri</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Kleebi</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Viga:%1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
@@ -40,7 +40,7 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kehtetu avaldis.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
