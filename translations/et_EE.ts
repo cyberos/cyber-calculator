@@ -47,7 +47,7 @@
         <location filename="../engine/evaluator.cpp" line="1068"/>
         <location filename="../engine/evaluator.cpp" line="1074"/>
         <source>Variable cannot be overwritten.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muutujat ei saa üle kirjutada.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
