@@ -11,7 +11,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished">Kopie</translation>
+        <translation>Kopie</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished">Fehler: %1</translation>
+        <translation>Fehler: %1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
@@ -40,32 +40,32 @@
         <location filename="../engine/evaluator.cpp" line="1267"/>
         <location filename="../engine/evaluator.cpp" line="1292"/>
         <source>Invalid expression.</source>
-        <translation type="unfinished">Ungültiger Ausdruck.</translation>
+        <translation>Ungültiger Ausdruck.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1062"/>
         <location filename="../engine/evaluator.cpp" line="1068"/>
         <location filename="../engine/evaluator.cpp" line="1074"/>
         <source>Variable cannot be overwritten.</source>
-        <translation type="unfinished">Variable kann nicht überschrieben werden.</translation>
+        <translation>Variable kann nicht überschrieben werden.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1081"/>
         <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished">Bezeichner stimmt mit einem vorhandenen Funktionsnamen überein.</translation>
+        <translation>Bezeichner stimmt mit einem vorhandenen Funktionsnamen überein.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
-        <translation type="unfinished">Division durch Null.</translation>
+        <translation>Division durch Null.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
-        <translation type="unfinished">Unbekannte Funktion oder Variable.</translation>
+        <translation>Unbekannte Funktion oder Variable.</translation>
     </message>
 </context>
 <context>
@@ -73,7 +73,7 @@
     <message>
         <location filename="../qml/main.qml" line="13"/>
         <source>Calculator</source>
-        <translation>Rechner</translation>
+        <translation>Kalkulator</translation>
     </message>
 </context>
 </TS>
