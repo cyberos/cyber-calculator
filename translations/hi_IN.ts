@@ -6,12 +6,12 @@
     <message>
         <location filename="../qml/CTextField.qml" line="40"/>
         <source>Cut</source>
-        <translation type="unfinished">कट गया</translation>
+        <translation>कट</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="46"/>
         <source>Copy</source>
-        <translation type="unfinished">प्रतिलिपि</translation>
+        <translation>कॉपी</translation>
     </message>
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
