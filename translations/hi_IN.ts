@@ -16,7 +16,7 @@
     <message>
         <location filename="../qml/CTextField.qml" line="52"/>
         <source>Paste</source>
-        <translation type="unfinished">पेस्ट करें</translation>
+        <translation type="unfinished">पेस्ट करें/ चिपकाये</translation>
     </message>
 </context>
 <context>
@@ -24,7 +24,7 @@
     <message>
         <location filename="../calcengine.cpp" line="38"/>
         <source>Error: %1</source>
-        <translation type="unfinished">त्रुटि:% 1</translation>
+        <translation>त्रुटि:% 1</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1041"/>
