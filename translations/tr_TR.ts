@@ -30,23 +30,11 @@
 <context>
     <name></name>
     <message>
-        <location filename="../engine/evaluator.cpp" line="1081"/>
-        <source>Identifier matches an existing function name.</source>
-        <translation type="unfinished">Tanımlayıcı, mevcut bir işlev adıyla eşleşir.</translation>
-    </message>
-    <message>
         <location filename="../engine/evaluator.cpp" line="1165"/>
         <location filename="../engine/evaluator.cpp" line="1205"/>
         <location filename="../engine/evaluator.cpp" line="1222"/>
         <source>Division by zero.</source>
         <translation>Sıfırla bölme işlemi.</translation>
-    </message>
-    <message>
-        <location filename="../engine/evaluator.cpp" line="1062"/>
-        <location filename="../engine/evaluator.cpp" line="1068"/>
-        <location filename="../engine/evaluator.cpp" line="1074"/>
-        <source>Variable cannot be overwritten.</source>
-        <translation>Değişkenin üzerine yazılamıyor.</translation>
     </message>
     <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
