@@ -30,17 +30,29 @@
 <context>
     <name></name>
     <message>
-        <location filename="../engine/evaluator.cpp" line="1165"/>
-        <location filename="../engine/evaluator.cpp" line="1205"/>
-        <location filename="../engine/evaluator.cpp" line="1222"/>
-        <source>Division by zero.</source>
-        <translation>Sıfırla bölme işlemi.</translation>
-    </message>
-    <message>
         <location filename="../engine/evaluator.cpp" line="1245"/>
         <location filename="../engine/evaluator.cpp" line="1261"/>
         <source>Unknown function or variable.</source>
         <translation>Bilinmeyen işlev veya değişken.</translation>
+    </message>
+    <message>
+        <location filename="../engine/evaluator.cpp" line="1165"/>
+        <location filename="../engine/evaluator.cpp" line="1205"/>
+        <location filename="../engine/evaluator.cpp" line="1222"/>
+        <source>Division by zero.</source>
+        <translation type="unfinished">Sıfıra bölüm.</translation>
+    </message>
+    <message>
+        <location filename="../engine/evaluator.cpp" line="1062"/>
+        <location filename="../engine/evaluator.cpp" line="1068"/>
+        <location filename="../engine/evaluator.cpp" line="1074"/>
+        <source>Variable cannot be overwritten.</source>
+        <translation type="unfinished">Değişkenin üzerine yazılamaz.</translation>
+    </message>
+    <message>
+        <location filename="../calcengine.cpp" line="38"/>
+        <source>Error: %1</source>
+        <translation type="unfinished">Hata:% 1</translation>
     </message>
 </context>
 </TS>
